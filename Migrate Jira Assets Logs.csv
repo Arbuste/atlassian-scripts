@@ -1,0 +1,2628 @@
+﻿Timestamp,Level,Message
+"2026-06-22 12:28:20","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:28:56","ERROR","API request failed: https://open-groupe-sandbox-4.atlassian.net/rest/servicedeskapi/assets/workspace (Opération annulée pour des raisons de sécurité. Utilisez le paramètre -UseBasicParsing pour analyser le HTML en toute sécurité sans exécuter de script.)"
+"2026-06-22 12:28:56","ERROR","Could not determine Cloud workspace ID."
+"2026-06-22 12:29:01","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:29:18","INFO","Processing Data Center schema '' (id=)"
+"2026-06-22 12:29:18","INFO","Found matching Cloud schema '' (id=)"
+"2026-06-22 12:29:18","ERROR","API request failed: https://preprodjira.open-groupe.com/rest/assets/latest/objectschema//objecttypes/flat (Le serveur distant a retourné une erreur : (404) Introuvable.)"
+"2026-06-22 12:29:18","WARNING","No object types found for schema '' in Data Center."
+"2026-06-22 12:29:18","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:29:44","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:29:49","INFO","Processing Data Center schema '' (id=)"
+"2026-06-22 12:29:49","INFO","Found matching Cloud schema '' (id=)"
+"2026-06-22 12:29:49","ERROR","API request failed: https://preprodjira.open-groupe.com/rest/assets/latest/objectschema//objecttypes/flat (Le serveur distant a retourné une erreur : (404) Introuvable.)"
+"2026-06-22 12:29:49","WARNING","No object types found for schema '' in Data Center."
+"2026-06-22 12:29:49","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:31:14","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:31:20","INFO","Schema found: {
+    ""objectschemas"":  [
+                          {
+                              ""id"":  3,
+                              ""name"":  ""Catalogue de données"",
+                              ""objectSchemaKey"":  ""CDS"",
+                              ""status"":  ""Ok"",
+                              ""created"":  ""2021-11-03T13:50:27.498Z"",
+                              ""updated"":  ""2025-02-04T08:05:41.853Z"",
+                              ""objectCount"":  8518,
+                              ""archivedObjectCount"":  0,
+                              ""objectTypeCount"":  53
+                          },
+                          {
+                              ""id"":  5,
+                              ""name"":  ""Schema Analyse \u0026 Conception"",
+                              ""objectSchemaKey"":  ""SMGP"",
+                              ""status"":  ""Ok"",
+                              ""created"":  ""2022-01-27T21:46:58.795Z"",
+                              ""updated"":  ""2025-12-19T16:00:32.589Z"",
+                              ""objectCount"":  18,
+                              ""archivedObjectCount"":  0,
+                              ""objectTypeCount"":  10
+                          }
+                      ]
+}"
+"2026-06-22 12:31:20","INFO","Processing Data Center schema '' (id=)"
+"2026-06-22 12:31:20","INFO","Found matching Cloud schema '' (id=)"
+"2026-06-22 12:31:20","ERROR","API request failed: https://preprodjira.open-groupe.com/rest/assets/latest/objectschema//objecttypes/flat (Le serveur distant a retourné une erreur : (404) Introuvable.)"
+"2026-06-22 12:31:20","WARNING","No object types found for schema '' in Data Center."
+"2026-06-22 12:31:20","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:33:50","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:33:57","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 12:33:57","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 12:33:57","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 12:33:57","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:33:57","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 12:33:57","WARNING","Skipping schema 'Schema Analyse & Conception' because it is not present in Cloud."
+"2026-06-22 12:33:57","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:41:39","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:41:46","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 12:41:46","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 12:41:46","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 12:41:46","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:41:46","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 12:41:46","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 12:41:47","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 12:41:48","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 12:41:48","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:45:15","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:45:16","INFO","{
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:45:21","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 12:45:21","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 12:45:21","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 12:45:21","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:45:21","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 12:45:21","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 12:45:21","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 12:45:21","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 12:45:22","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 12:45:23","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 12:45:23","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:48:04","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:48:12","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 12:48:12","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 12:48:12","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:48:12","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 12:48:12","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:48:12","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 12:48:12","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:48:12","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 12:48:12","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 12:48:12","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 12:48:12","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 12:48:12","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 12:48:12","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 12:48:13","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 12:48:13","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 12:48:13","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 12:48:13","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 12:48:13","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 12:48:13","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 12:48:13","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:49:14","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:49:14","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:49:20","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 12:49:20","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 12:49:20","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:49:20","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 12:49:20","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:49:20","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 12:49:20","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:49:20","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 12:49:20","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 12:49:20","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 12:49:20","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 12:49:20","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 12:49:20","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 12:49:21","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 12:49:21","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 12:49:21","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 12:49:21","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 12:49:21","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 12:49:21","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 12:49:21","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:51:34","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:51:34","ERROR","API request failed: https://preprodjira.open-groupe.com/rest/assets/latest/objectschema/list (Impossible de trouver un paramètre correspondant au nom « charset ».)"
+"2026-06-22 12:51:34","ERROR","No Data Center object schemas were found or API call failed."
+"2026-06-22 12:52:53","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:52:54","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:53:00","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 12:53:00","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 12:53:00","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:53:00","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 12:53:00","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:53:00","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 12:53:00","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:53:00","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 12:53:00","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 12:53:00","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 12:53:00","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 12:53:01","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 12:53:01","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 12:53:01","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 12:53:01","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 12:53:01","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 12:53:01","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 12:53:01","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 12:53:01","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 12:53:01","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:53:12","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:53:13","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:53:19","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 12:53:19","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 12:53:19","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:53:19","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 12:53:19","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 12:53:19","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 12:53:19","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 12:53:19","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 12:53:19","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 12:53:19","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 12:53:19","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 12:53:19","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 12:53:20","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 12:53:20","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 12:53:20","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 12:53:20","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 12:53:20","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 12:53:20","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 12:53:21","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 12:53:21","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 12:56:46","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:56:47","ERROR","API request failed: https://preprodjira.open-groupe.com/rest/assets/latest/objectschema/list (Surcharge introuvable pour « GetString » et le nombre d'arguments « 1 ».)"
+"2026-06-22 12:56:47","ERROR","No Data Center object schemas were found or API call failed."
+"2026-06-22 12:57:18","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:57:18","ERROR","API request failed: https://preprodjira.open-groupe.com/rest/assets/latest/objectschema/list (HTTP )"
+"2026-06-22 12:57:18","ERROR","No Data Center object schemas were found or API call failed."
+"2026-06-22 12:58:56","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 12:58:57","ERROR","API request failed: https://preprodjira.open-groupe.com/rest/assets/latest/objectschema/list (HTTP )"
+"2026-06-22 12:58:57","ERROR","No Data Center object schemas were found or API call failed."
+"2026-06-22 13:10:36","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 13:10:36","INFO","List of DC schemas: [
+    {
+        ""id"":  3,
+        ""name"":  ""Catalogue de données"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""status"":  ""Ok"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""archivedObjectCount"":  0,
+        ""objectTypeCount"":  53
+    },
+    {
+        ""id"":  5,
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""status"":  ""Ok"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""archivedObjectCount"":  0,
+        ""objectTypeCount"":  10
+    }
+]"
+"2026-06-22 13:10:37","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 13:10:47","INFO","Schema found: {
+    ""id"":  3,
+    ""name"":  ""Catalogue de données"",
+    ""objectSchemaKey"":  ""CDS"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2021-11-03T13:50:27.498Z"",
+    ""updated"":  ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"":  8518,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  53
+}"
+"2026-06-22 13:10:47","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 13:10:47","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 13:10:47","WARNING","Skipping schema 'Catalogue de données' because it is not present in Cloud."
+"2026-06-22 13:10:47","INFO","Schema found: {
+    ""id"":  5,
+    ""name"":  ""Schema Analyse \u0026 Conception"",
+    ""objectSchemaKey"":  ""SMGP"",
+    ""status"":  ""Ok"",
+    ""created"":  ""2022-01-27T21:46:58.795Z"",
+    ""updated"":  ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"":  18,
+    ""archivedObjectCount"":  0,
+    ""objectTypeCount"":  10
+}"
+"2026-06-22 13:10:47","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 13:10:47","INFO","List of cloud schemas: [
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+        ""id"":  ""2"",
+        ""name"":  ""Catalogue de donnÃ©es"",
+        ""objectSchemaKey"":  ""CDS"",
+        ""created"":  ""2021-11-03T13:50:27.498Z"",
+        ""updated"":  ""2025-02-04T08:05:41.853Z"",
+        ""objectCount"":  8518,
+        ""objectTypeCount"":  53,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+        ""id"":  ""3"",
+        ""name"":  ""Schema Analyse \u0026 Conception"",
+        ""objectSchemaKey"":  ""SMGP"",
+        ""created"":  ""2022-01-27T21:46:58.795Z"",
+        ""updated"":  ""2025-12-19T16:00:32.589Z"",
+        ""objectCount"":  18,
+        ""objectTypeCount"":  10,
+        ""status"":  ""Ok"",
+        ""canManage"":  true,
+        ""crossSchemaReferencingAllowed"":  false
+    },
+    {
+        ""workspaceId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+        ""globalId"":  ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+        ""id"":  ""1"",
+        ""name"":  ""Services"",
+        ""objectSchemaKey"":  ""SVC"",
+        ""created"":  ""2026-06-06T17:19:57.095Z"",
+        ""updated"":  ""2026-06-06T17:19:57.095Z"",
+        ""objectCount"":  0,
+        ""objectTypeCount"":  4,
+        ""description"":  ""Contains the \u0027Service\u0027 object type and services your site uses across projects."",
+        ""status"":  ""Ok"",
+        ""canManage"":  false,
+        ""crossSchemaReferencingAllowed"":  true
+    }
+]"
+"2026-06-22 13:10:47","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 13:10:47","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 13:10:47","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 13:10:47","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 13:10:47","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 13:10:48","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 13:10:48","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 13:10:48","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 13:10:48","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 13:10:48","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 13:10:48","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 13:10:48","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 13:10:48","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 13:18:34","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 13:18:35","INFO","List of DC schemas: [
+  {
+    ""id"": 3,
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""status"": ""Ok"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 53
+  },
+  {
+    ""id"": 5,
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""status"": ""Ok"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 10
+  }
+]"
+"2026-06-22 13:18:36","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:18:45","INFO","Schema found: {
+  ""id"": 3,
+  ""name"": ""Catalogue de données"",
+  ""objectSchemaKey"": ""CDS"",
+  ""status"": ""Ok"",
+  ""created"": ""2021-11-03T13:50:27.498Z"",
+  ""updated"": ""2025-02-04T08:05:41.853Z"",
+  ""objectCount"": 8518,
+  ""archivedObjectCount"": 0,
+  ""objectTypeCount"": 53
+}"
+"2026-06-22 13:18:45","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 13:18:45","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:18:45","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 13:18:45","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 13:18:46","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 13:18:46","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 13:18:46","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 13:18:46","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 13:18:46","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 13:18:46","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 13:18:46","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 13:18:47","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 13:18:47","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 13:18:47","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 13:18:47","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 13:18:47","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 13:18:48","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 13:18:48","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 13:18:48","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 13:18:48","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 13:18:48","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 13:18:48","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 13:18:48","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 13:18:49","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 13:18:49","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 13:18:49","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 13:18:49","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 13:18:49","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 13:18:49","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 13:18:49","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 13:18:50","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 13:18:50","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 13:18:50","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 13:18:50","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 13:18:50","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 13:18:50","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 13:18:51","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 13:18:51","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 13:18:51","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 13:18:51","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 13:18:51","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 13:18:51","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 13:18:51","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 13:18:52","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 13:18:52","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 13:18:52","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 13:18:52","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 13:18:52","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 13:18:52","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 13:18:53","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 13:18:53","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 13:18:53","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 13:18:53","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 13:18:53","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 13:18:53","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 13:18:54","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 13:18:54","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty"
+"2026-06-22 13:18:54","INFO","Loaded page 1, toIndex=25, totalFilterCount=8313"
+"2026-06-22 13:18:54","INFO","Loaded page 2, toIndex=50, totalFilterCount=8313"
+"2026-06-22 13:18:55","INFO","Loaded page 3, toIndex=75, totalFilterCount=8313"
+"2026-06-22 13:18:55","INFO","Loaded page 4, toIndex=100, totalFilterCount=8313"
+"2026-06-22 13:18:55","INFO","Loaded page 5, toIndex=125, totalFilterCount=8313"
+"2026-06-22 13:18:56","INFO","Loaded page 6, toIndex=150, totalFilterCount=8313"
+"2026-06-22 13:18:56","INFO","Loaded page 7, toIndex=175, totalFilterCount=8313"
+"2026-06-22 13:18:56","INFO","Loaded page 8, toIndex=200, totalFilterCount=8313"
+"2026-06-22 13:18:57","INFO","Loaded page 9, toIndex=225, totalFilterCount=8313"
+"2026-06-22 13:18:57","INFO","Loaded page 10, toIndex=250, totalFilterCount=8313"
+"2026-06-22 13:18:57","INFO","Loaded page 11, toIndex=275, totalFilterCount=8313"
+"2026-06-22 13:18:57","INFO","Loaded page 12, toIndex=300, totalFilterCount=8313"
+"2026-06-22 13:19:05","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 13:19:05","INFO","List of DC schemas: [
+  {
+    ""id"": 3,
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""status"": ""Ok"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 53
+  },
+  {
+    ""id"": 5,
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""status"": ""Ok"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 10
+  }
+]"
+"2026-06-22 13:19:06","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:19:09","INFO","Schema found: {
+  ""id"": 3,
+  ""name"": ""Catalogue de données"",
+  ""objectSchemaKey"": ""CDS"",
+  ""status"": ""Ok"",
+  ""created"": ""2021-11-03T13:50:27.498Z"",
+  ""updated"": ""2025-02-04T08:05:41.853Z"",
+  ""objectCount"": 8518,
+  ""archivedObjectCount"": 0,
+  ""objectTypeCount"": 53
+}"
+"2026-06-22 13:19:09","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 13:19:09","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:19:09","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 13:19:10","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 13:19:10","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 13:19:10","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 13:19:10","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 13:19:10","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 13:19:11","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 13:19:11","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 13:19:11","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 13:19:11","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 13:19:11","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 13:19:11","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 13:19:12","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 13:19:12","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 13:19:12","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 13:19:12","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 13:19:12","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 13:19:12","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 13:19:13","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 13:19:13","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 13:19:13","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 13:19:13","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 13:19:13","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 13:19:13","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 13:19:14","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 13:19:14","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 13:19:14","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 13:19:14","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 13:19:15","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 13:19:15","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 13:19:15","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 13:19:15","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 13:19:15","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 13:19:15","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 13:19:16","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 13:19:16","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 13:19:16","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 13:19:16","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 13:19:16","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 13:19:16","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 13:19:16","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 13:19:17","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 13:19:17","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 13:19:17","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 13:19:17","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 13:19:17","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 13:19:17","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 13:19:17","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 13:19:18","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 13:19:18","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 13:19:18","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 13:19:18","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 13:19:18","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 13:19:18","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 13:19:19","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty"
+"2026-06-22 13:19:19","INFO","Loaded page 1, toIndex=25, totalFilterCount=8313"
+"2026-06-22 13:19:19","INFO","Loaded page 2, toIndex=50, totalFilterCount=8313"
+"2026-06-22 13:19:19","INFO","Loaded page 3, toIndex=75, totalFilterCount=8313"
+"2026-06-22 13:19:20","INFO","Loaded page 4, toIndex=100, totalFilterCount=8313"
+"2026-06-22 13:19:20","INFO","Loaded page 5, toIndex=125, totalFilterCount=8313"
+"2026-06-22 13:19:20","INFO","Loaded page 6, toIndex=150, totalFilterCount=8313"
+"2026-06-22 13:19:21","INFO","Loaded page 7, toIndex=175, totalFilterCount=8313"
+"2026-06-22 13:19:21","INFO","Loaded page 8, toIndex=200, totalFilterCount=8313"
+"2026-06-22 13:19:30","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 13:19:30","INFO","List of DC schemas: [
+  {
+    ""id"": 3,
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""status"": ""Ok"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 53
+  },
+  {
+    ""id"": 5,
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""status"": ""Ok"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 10
+  }
+]"
+"2026-06-22 13:19:31","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:19:35","INFO","Schema found: {
+  ""id"": 3,
+  ""name"": ""Catalogue de données"",
+  ""objectSchemaKey"": ""CDS"",
+  ""status"": ""Ok"",
+  ""created"": ""2021-11-03T13:50:27.498Z"",
+  ""updated"": ""2025-02-04T08:05:41.853Z"",
+  ""objectCount"": 8518,
+  ""archivedObjectCount"": 0,
+  ""objectTypeCount"": 53
+}"
+"2026-06-22 13:19:35","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 13:19:35","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:19:35","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 13:19:35","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 13:19:35","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 13:19:35","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 13:19:35","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 13:19:36","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 13:19:36","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 13:19:36","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 13:19:36","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 13:19:36","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 13:19:36","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 13:19:36","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 13:19:37","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 13:19:37","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 13:19:37","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 13:19:37","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 13:19:37","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 13:19:37","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 13:19:38","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 13:19:38","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 13:19:38","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 13:19:38","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 13:19:38","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 13:19:38","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 13:19:39","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 13:19:39","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 13:19:39","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 13:19:39","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 13:19:39","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 13:19:39","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 13:19:40","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 13:19:40","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 13:19:40","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 13:19:40","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 13:19:40","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 13:19:40","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 13:19:41","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 13:19:41","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 13:19:41","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 13:19:41","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 13:19:41","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 13:19:41","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 13:19:42","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 13:19:42","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 13:19:42","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 13:19:42","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 13:19:42","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 13:19:42","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 13:19:43","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 13:19:43","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 13:19:43","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 13:19:43","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 13:19:43","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 13:19:43","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 13:19:44","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty"
+"2026-06-22 13:19:44","INFO","Loaded page 1, toIndex=25, totalFilterCount=8313"
+"2026-06-22 13:19:44","INFO","Loaded page 2, toIndex=50, totalFilterCount=8313"
+"2026-06-22 13:19:44","INFO","Loaded page 3, toIndex=75, totalFilterCount=8313"
+"2026-06-22 13:19:45","INFO","Loaded page 4, toIndex=100, totalFilterCount=8313"
+"2026-06-22 13:19:45","INFO","Loaded page 5, toIndex=125, totalFilterCount=8313"
+"2026-06-22 13:19:45","INFO","Loaded page 6, toIndex=150, totalFilterCount=8313"
+"2026-06-22 13:19:46","INFO","Loaded page 7, toIndex=175, totalFilterCount=8313"
+"2026-06-22 13:19:46","INFO","Loaded page 8, toIndex=200, totalFilterCount=8313"
+"2026-06-22 13:19:46","INFO","Loaded page 9, toIndex=225, totalFilterCount=8313"
+"2026-06-22 13:19:46","INFO","Loaded page 10, toIndex=250, totalFilterCount=8313"
+"2026-06-22 13:19:47","INFO","Loaded page 11, toIndex=275, totalFilterCount=8313"
+"2026-06-22 13:19:47","INFO","Loaded page 12, toIndex=300, totalFilterCount=8313"
+"2026-06-22 13:19:47","INFO","Loaded page 13, toIndex=325, totalFilterCount=8313"
+"2026-06-22 13:19:48","INFO","Loaded page 14, toIndex=350, totalFilterCount=8313"
+"2026-06-22 13:19:48","INFO","Loaded page 15, toIndex=375, totalFilterCount=8313"
+"2026-06-22 13:19:48","INFO","Loaded page 16, toIndex=400, totalFilterCount=8313"
+"2026-06-22 13:19:48","INFO","Loaded page 17, toIndex=425, totalFilterCount=8313"
+"2026-06-22 13:19:49","INFO","Loaded page 18, toIndex=450, totalFilterCount=8313"
+"2026-06-22 13:19:49","INFO","Loaded page 19, toIndex=475, totalFilterCount=8313"
+"2026-06-22 13:19:49","INFO","Loaded page 20, toIndex=500, totalFilterCount=8313"
+"2026-06-22 13:19:50","INFO","Loaded page 21, toIndex=525, totalFilterCount=8313"
+"2026-06-22 13:19:50","INFO","Loaded page 22, toIndex=550, totalFilterCount=8313"
+"2026-06-22 13:19:50","INFO","Loaded page 23, toIndex=575, totalFilterCount=8313"
+"2026-06-22 13:19:50","INFO","Loaded page 24, toIndex=600, totalFilterCount=8313"
+"2026-06-22 13:19:51","INFO","Loaded page 25, toIndex=625, totalFilterCount=8313"
+"2026-06-22 13:19:51","INFO","Loaded page 26, toIndex=650, totalFilterCount=8313"
+"2026-06-22 13:19:51","INFO","Loaded page 27, toIndex=675, totalFilterCount=8313"
+"2026-06-22 13:19:52","INFO","Loaded page 28, toIndex=700, totalFilterCount=8313"
+"2026-06-22 13:19:52","INFO","Loaded page 29, toIndex=725, totalFilterCount=8313"
+"2026-06-22 13:19:52","INFO","Loaded page 30, toIndex=750, totalFilterCount=8313"
+"2026-06-22 13:19:52","INFO","Loaded page 31, toIndex=775, totalFilterCount=8313"
+"2026-06-22 13:19:53","INFO","Loaded page 32, toIndex=800, totalFilterCount=8313"
+"2026-06-22 13:19:53","INFO","Loaded page 33, toIndex=825, totalFilterCount=8313"
+"2026-06-22 13:19:53","INFO","Loaded page 34, toIndex=850, totalFilterCount=8313"
+"2026-06-22 13:19:53","INFO","Loaded page 35, toIndex=875, totalFilterCount=8313"
+"2026-06-22 13:19:54","INFO","Loaded page 36, toIndex=900, totalFilterCount=8313"
+"2026-06-22 13:19:54","INFO","Loaded page 37, toIndex=925, totalFilterCount=8313"
+"2026-06-22 13:19:54","INFO","Loaded page 38, toIndex=950, totalFilterCount=8313"
+"2026-06-22 13:19:55","INFO","Loaded page 39, toIndex=975, totalFilterCount=8313"
+"2026-06-22 13:19:55","INFO","Loaded page 40, toIndex=1000, totalFilterCount=8313"
+"2026-06-22 13:19:55","INFO","Loaded page 41, toIndex=1025, totalFilterCount=8313"
+"2026-06-22 13:19:55","INFO","Loaded page 42, toIndex=1050, totalFilterCount=8313"
+"2026-06-22 13:19:56","INFO","Loaded page 43, toIndex=1075, totalFilterCount=8313"
+"2026-06-22 13:19:56","INFO","Loaded page 44, toIndex=1100, totalFilterCount=8313"
+"2026-06-22 13:19:56","INFO","Loaded page 45, toIndex=1125, totalFilterCount=8313"
+"2026-06-22 13:19:56","INFO","Loaded page 46, toIndex=1150, totalFilterCount=8313"
+"2026-06-22 13:19:57","INFO","Loaded page 47, toIndex=1175, totalFilterCount=8313"
+"2026-06-22 13:19:57","INFO","Loaded page 48, toIndex=1200, totalFilterCount=8313"
+"2026-06-22 13:19:57","INFO","Loaded page 49, toIndex=1225, totalFilterCount=8313"
+"2026-06-22 13:19:58","INFO","Loaded page 50, toIndex=1250, totalFilterCount=8313"
+"2026-06-22 13:19:58","INFO","Loaded page 51, toIndex=1275, totalFilterCount=8313"
+"2026-06-22 13:19:58","INFO","Loaded page 52, toIndex=1300, totalFilterCount=8313"
+"2026-06-22 13:19:58","INFO","Loaded page 53, toIndex=1325, totalFilterCount=8313"
+"2026-06-22 13:19:59","INFO","Loaded page 54, toIndex=1350, totalFilterCount=8313"
+"2026-06-22 13:19:59","INFO","Loaded page 55, toIndex=1375, totalFilterCount=8313"
+"2026-06-22 13:19:59","INFO","Loaded page 56, toIndex=1400, totalFilterCount=8313"
+"2026-06-22 13:20:00","INFO","Loaded page 57, toIndex=1425, totalFilterCount=8313"
+"2026-06-22 13:20:00","INFO","Loaded page 58, toIndex=1450, totalFilterCount=8313"
+"2026-06-22 13:20:00","INFO","Loaded page 59, toIndex=1475, totalFilterCount=8313"
+"2026-06-22 13:20:00","INFO","Loaded page 60, toIndex=1500, totalFilterCount=8313"
+"2026-06-22 13:20:01","INFO","Loaded page 61, toIndex=1525, totalFilterCount=8313"
+"2026-06-22 13:20:01","INFO","Loaded page 62, toIndex=1550, totalFilterCount=8313"
+"2026-06-22 13:20:01","INFO","Loaded page 63, toIndex=1575, totalFilterCount=8313"
+"2026-06-22 13:20:01","INFO","Loaded page 64, toIndex=1600, totalFilterCount=8313"
+"2026-06-22 13:20:02","INFO","Loaded page 65, toIndex=1625, totalFilterCount=8313"
+"2026-06-22 13:20:02","INFO","Loaded page 66, toIndex=1650, totalFilterCount=8313"
+"2026-06-22 13:20:02","INFO","Loaded page 67, toIndex=1675, totalFilterCount=8313"
+"2026-06-22 13:20:02","INFO","Loaded page 68, toIndex=1700, totalFilterCount=8313"
+"2026-06-22 13:20:03","INFO","Loaded page 69, toIndex=1725, totalFilterCount=8313"
+"2026-06-22 13:20:03","INFO","Loaded page 70, toIndex=1750, totalFilterCount=8313"
+"2026-06-22 13:20:03","INFO","Loaded page 71, toIndex=1775, totalFilterCount=8313"
+"2026-06-22 13:20:03","INFO","Loaded page 72, toIndex=1800, totalFilterCount=8313"
+"2026-06-22 13:20:03","INFO","Loaded page 73, toIndex=1825, totalFilterCount=8313"
+"2026-06-22 13:20:04","INFO","Loaded page 74, toIndex=1850, totalFilterCount=8313"
+"2026-06-22 13:20:04","INFO","Loaded page 75, toIndex=1875, totalFilterCount=8313"
+"2026-06-22 13:20:04","INFO","Loaded page 76, toIndex=1900, totalFilterCount=8313"
+"2026-06-22 13:20:05","INFO","Loaded page 77, toIndex=1925, totalFilterCount=8313"
+"2026-06-22 13:20:05","INFO","Loaded page 78, toIndex=1950, totalFilterCount=8313"
+"2026-06-22 13:20:05","INFO","Loaded page 79, toIndex=1975, totalFilterCount=8313"
+"2026-06-22 13:20:05","INFO","Loaded page 80, toIndex=2000, totalFilterCount=8313"
+"2026-06-22 13:20:06","INFO","Loaded page 81, toIndex=2025, totalFilterCount=8313"
+"2026-06-22 13:20:06","INFO","Loaded page 82, toIndex=2050, totalFilterCount=8313"
+"2026-06-22 13:20:06","INFO","Loaded page 83, toIndex=2075, totalFilterCount=8313"
+"2026-06-22 13:20:06","INFO","Loaded page 84, toIndex=2100, totalFilterCount=8313"
+"2026-06-22 13:20:07","INFO","Loaded page 85, toIndex=2125, totalFilterCount=8313"
+"2026-06-22 13:20:07","INFO","Loaded page 86, toIndex=2150, totalFilterCount=8313"
+"2026-06-22 13:20:07","INFO","Loaded page 87, toIndex=2175, totalFilterCount=8313"
+"2026-06-22 13:20:07","INFO","Loaded page 88, toIndex=2200, totalFilterCount=8313"
+"2026-06-22 13:20:08","INFO","Loaded page 89, toIndex=2225, totalFilterCount=8313"
+"2026-06-22 13:20:08","INFO","Loaded page 90, toIndex=2250, totalFilterCount=8313"
+"2026-06-22 13:20:08","INFO","Loaded page 91, toIndex=2275, totalFilterCount=8313"
+"2026-06-22 13:20:09","INFO","Loaded page 92, toIndex=2300, totalFilterCount=8313"
+"2026-06-22 13:20:09","INFO","Loaded page 93, toIndex=2325, totalFilterCount=8313"
+"2026-06-22 13:20:09","INFO","Loaded page 94, toIndex=2350, totalFilterCount=8313"
+"2026-06-22 13:20:09","INFO","Loaded page 95, toIndex=2375, totalFilterCount=8313"
+"2026-06-22 13:20:10","INFO","Loaded page 96, toIndex=2400, totalFilterCount=8313"
+"2026-06-22 13:20:10","INFO","Loaded page 97, toIndex=2425, totalFilterCount=8313"
+"2026-06-22 13:20:10","INFO","Loaded page 98, toIndex=2450, totalFilterCount=8313"
+"2026-06-22 13:20:10","INFO","Loaded page 99, toIndex=2475, totalFilterCount=8313"
+"2026-06-22 13:20:11","INFO","Loaded page 100, toIndex=2500, totalFilterCount=8313"
+"2026-06-22 13:20:11","INFO","Loaded page 101, toIndex=2525, totalFilterCount=8313"
+"2026-06-22 13:20:11","INFO","Loaded page 102, toIndex=2550, totalFilterCount=8313"
+"2026-06-22 13:20:12","INFO","Loaded page 103, toIndex=2575, totalFilterCount=8313"
+"2026-06-22 13:20:12","INFO","Loaded page 104, toIndex=2600, totalFilterCount=8313"
+"2026-06-22 13:20:12","INFO","Loaded page 105, toIndex=2625, totalFilterCount=8313"
+"2026-06-22 13:20:12","INFO","Loaded page 106, toIndex=2650, totalFilterCount=8313"
+"2026-06-22 13:20:13","INFO","Loaded page 107, toIndex=2675, totalFilterCount=8313"
+"2026-06-22 13:20:13","INFO","Loaded page 108, toIndex=2700, totalFilterCount=8313"
+"2026-06-22 13:20:13","INFO","Loaded page 109, toIndex=2725, totalFilterCount=8313"
+"2026-06-22 13:20:13","INFO","Loaded page 110, toIndex=2750, totalFilterCount=8313"
+"2026-06-22 13:20:14","INFO","Loaded page 111, toIndex=2775, totalFilterCount=8313"
+"2026-06-22 13:20:14","INFO","Loaded page 112, toIndex=2800, totalFilterCount=8313"
+"2026-06-22 13:20:14","INFO","Loaded page 113, toIndex=2825, totalFilterCount=8313"
+"2026-06-22 13:20:14","INFO","Loaded page 114, toIndex=2850, totalFilterCount=8313"
+"2026-06-22 13:20:15","INFO","Loaded page 115, toIndex=2875, totalFilterCount=8313"
+"2026-06-22 13:20:15","INFO","Loaded page 116, toIndex=2900, totalFilterCount=8313"
+"2026-06-22 13:20:15","INFO","Loaded page 117, toIndex=2925, totalFilterCount=8313"
+"2026-06-22 13:20:15","INFO","Loaded page 118, toIndex=2950, totalFilterCount=8313"
+"2026-06-22 13:20:16","INFO","Loaded page 119, toIndex=2975, totalFilterCount=8313"
+"2026-06-22 13:20:16","INFO","Loaded page 120, toIndex=3000, totalFilterCount=8313"
+"2026-06-22 13:20:17","INFO","Loaded page 121, toIndex=3025, totalFilterCount=8313"
+"2026-06-22 13:20:17","INFO","Loaded page 122, toIndex=3050, totalFilterCount=8313"
+"2026-06-22 13:20:17","INFO","Loaded page 123, toIndex=3075, totalFilterCount=8313"
+"2026-06-22 13:20:18","INFO","Loaded page 124, toIndex=3100, totalFilterCount=8313"
+"2026-06-22 13:20:18","INFO","Loaded page 125, toIndex=3125, totalFilterCount=8313"
+"2026-06-22 13:20:18","INFO","Loaded page 126, toIndex=3150, totalFilterCount=8313"
+"2026-06-22 13:20:18","INFO","Loaded page 127, toIndex=3175, totalFilterCount=8313"
+"2026-06-22 13:20:19","INFO","Loaded page 128, toIndex=3200, totalFilterCount=8313"
+"2026-06-22 13:20:19","INFO","Loaded page 129, toIndex=3225, totalFilterCount=8313"
+"2026-06-22 13:20:19","INFO","Loaded page 130, toIndex=3250, totalFilterCount=8313"
+"2026-06-22 13:20:20","INFO","Loaded page 131, toIndex=3275, totalFilterCount=8313"
+"2026-06-22 13:20:20","INFO","Loaded page 132, toIndex=3300, totalFilterCount=8313"
+"2026-06-22 13:20:21","INFO","Loaded page 133, toIndex=3325, totalFilterCount=8313"
+"2026-06-22 13:20:21","INFO","Loaded page 134, toIndex=3350, totalFilterCount=8313"
+"2026-06-22 13:20:21","INFO","Loaded page 135, toIndex=3375, totalFilterCount=8313"
+"2026-06-22 13:20:22","INFO","Loaded page 136, toIndex=3400, totalFilterCount=8313"
+"2026-06-22 13:20:22","INFO","Loaded page 137, toIndex=3425, totalFilterCount=8313"
+"2026-06-22 13:20:22","INFO","Loaded page 138, toIndex=3450, totalFilterCount=8313"
+"2026-06-22 13:20:22","INFO","Loaded page 139, toIndex=3475, totalFilterCount=8313"
+"2026-06-22 13:20:23","INFO","Loaded page 140, toIndex=3500, totalFilterCount=8313"
+"2026-06-22 13:20:23","INFO","Loaded page 141, toIndex=3525, totalFilterCount=8313"
+"2026-06-22 13:20:23","INFO","Loaded page 142, toIndex=3550, totalFilterCount=8313"
+"2026-06-22 13:20:23","INFO","Loaded page 143, toIndex=3575, totalFilterCount=8313"
+"2026-06-22 13:20:24","INFO","Loaded page 144, toIndex=3600, totalFilterCount=8313"
+"2026-06-22 13:20:24","INFO","Loaded page 145, toIndex=3625, totalFilterCount=8313"
+"2026-06-22 13:20:24","INFO","Loaded page 146, toIndex=3650, totalFilterCount=8313"
+"2026-06-22 13:20:25","INFO","Loaded page 147, toIndex=3675, totalFilterCount=8313"
+"2026-06-22 13:20:25","INFO","Loaded page 148, toIndex=3700, totalFilterCount=8313"
+"2026-06-22 13:20:25","INFO","Loaded page 149, toIndex=3725, totalFilterCount=8313"
+"2026-06-22 13:20:26","INFO","Loaded page 150, toIndex=3750, totalFilterCount=8313"
+"2026-06-22 13:20:26","INFO","Loaded page 151, toIndex=3775, totalFilterCount=8313"
+"2026-06-22 13:20:26","INFO","Loaded page 152, toIndex=3800, totalFilterCount=8313"
+"2026-06-22 13:20:26","INFO","Loaded page 153, toIndex=3825, totalFilterCount=8313"
+"2026-06-22 13:20:26","INFO","Loaded page 154, toIndex=3850, totalFilterCount=8313"
+"2026-06-22 13:20:27","INFO","Loaded page 155, toIndex=3875, totalFilterCount=8313"
+"2026-06-22 13:20:27","INFO","Loaded page 156, toIndex=3900, totalFilterCount=8313"
+"2026-06-22 13:20:27","INFO","Loaded page 157, toIndex=3925, totalFilterCount=8313"
+"2026-06-22 13:20:28","INFO","Loaded page 158, toIndex=3950, totalFilterCount=8313"
+"2026-06-22 13:20:28","INFO","Loaded page 159, toIndex=3975, totalFilterCount=8313"
+"2026-06-22 13:20:28","INFO","Loaded page 160, toIndex=4000, totalFilterCount=8313"
+"2026-06-22 13:20:28","INFO","Loaded page 161, toIndex=4025, totalFilterCount=8313"
+"2026-06-22 13:20:29","INFO","Loaded page 162, toIndex=4050, totalFilterCount=8313"
+"2026-06-22 13:20:29","INFO","Loaded page 163, toIndex=4075, totalFilterCount=8313"
+"2026-06-22 13:20:29","INFO","Loaded page 164, toIndex=4100, totalFilterCount=8313"
+"2026-06-22 13:20:29","INFO","Loaded page 165, toIndex=4125, totalFilterCount=8313"
+"2026-06-22 13:20:30","INFO","Loaded page 166, toIndex=4150, totalFilterCount=8313"
+"2026-06-22 13:20:30","INFO","Loaded page 167, toIndex=4175, totalFilterCount=8313"
+"2026-06-22 13:20:30","INFO","Loaded page 168, toIndex=4200, totalFilterCount=8313"
+"2026-06-22 13:20:30","INFO","Loaded page 169, toIndex=4225, totalFilterCount=8313"
+"2026-06-22 13:20:31","INFO","Loaded page 170, toIndex=4250, totalFilterCount=8313"
+"2026-06-22 13:20:31","INFO","Loaded page 171, toIndex=4275, totalFilterCount=8313"
+"2026-06-22 13:20:31","INFO","Loaded page 172, toIndex=4300, totalFilterCount=8313"
+"2026-06-22 13:20:32","INFO","Loaded page 173, toIndex=4325, totalFilterCount=8313"
+"2026-06-22 13:20:32","INFO","Loaded page 174, toIndex=4350, totalFilterCount=8313"
+"2026-06-22 13:20:32","INFO","Loaded page 175, toIndex=4375, totalFilterCount=8313"
+"2026-06-22 13:20:32","INFO","Loaded page 176, toIndex=4400, totalFilterCount=8313"
+"2026-06-22 13:20:33","INFO","Loaded page 177, toIndex=4425, totalFilterCount=8313"
+"2026-06-22 13:20:33","INFO","Loaded page 178, toIndex=4450, totalFilterCount=8313"
+"2026-06-22 13:20:33","INFO","Loaded page 179, toIndex=4475, totalFilterCount=8313"
+"2026-06-22 13:20:34","INFO","Loaded page 180, toIndex=4500, totalFilterCount=8313"
+"2026-06-22 13:20:34","INFO","Loaded page 181, toIndex=4525, totalFilterCount=8313"
+"2026-06-22 13:20:34","INFO","Loaded page 182, toIndex=4550, totalFilterCount=8313"
+"2026-06-22 13:20:35","INFO","Loaded page 183, toIndex=4575, totalFilterCount=8313"
+"2026-06-22 13:20:35","INFO","Loaded page 184, toIndex=4600, totalFilterCount=8313"
+"2026-06-22 13:20:35","INFO","Loaded page 185, toIndex=4625, totalFilterCount=8313"
+"2026-06-22 13:20:35","INFO","Loaded page 186, toIndex=4650, totalFilterCount=8313"
+"2026-06-22 13:20:36","INFO","Loaded page 187, toIndex=4675, totalFilterCount=8313"
+"2026-06-22 13:20:36","INFO","Loaded page 188, toIndex=4700, totalFilterCount=8313"
+"2026-06-22 13:20:36","INFO","Loaded page 189, toIndex=4725, totalFilterCount=8313"
+"2026-06-22 13:20:37","INFO","Loaded page 190, toIndex=4750, totalFilterCount=8313"
+"2026-06-22 13:20:37","INFO","Loaded page 191, toIndex=4775, totalFilterCount=8313"
+"2026-06-22 13:20:37","INFO","Loaded page 192, toIndex=4800, totalFilterCount=8313"
+"2026-06-22 13:20:38","INFO","Loaded page 193, toIndex=4825, totalFilterCount=8313"
+"2026-06-22 13:56:16","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 13:56:16","INFO","List of DC schemas: [
+  {
+    ""id"": 3,
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""status"": ""Ok"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 53
+  },
+  {
+    ""id"": 5,
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""status"": ""Ok"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 10
+  }
+]"
+"2026-06-22 13:56:17","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:56:24","INFO","Schema found: {
+  ""id"": 3,
+  ""name"": ""Catalogue de données"",
+  ""objectSchemaKey"": ""CDS"",
+  ""status"": ""Ok"",
+  ""created"": ""2021-11-03T13:50:27.498Z"",
+  ""updated"": ""2025-02-04T08:05:41.853Z"",
+  ""objectCount"": 8518,
+  ""archivedObjectCount"": 0,
+  ""objectTypeCount"": 53
+}"
+"2026-06-22 13:56:24","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 13:56:24","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:56:24","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 13:56:24","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 13:56:25","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 13:56:25","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 13:56:25","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 13:56:25","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 13:56:25","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 13:56:25","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 13:56:26","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 13:56:26","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 13:56:26","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 13:56:26","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 13:56:26","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 13:56:26","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 13:56:27","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 13:56:27","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 13:56:27","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 13:56:27","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 13:56:27","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 13:56:27","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 13:56:28","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 13:56:28","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 13:56:28","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 13:56:28","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 13:56:28","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 13:56:28","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 13:56:28","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 13:56:29","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 13:56:29","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 13:56:29","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 13:56:29","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 13:56:29","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 13:56:29","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 13:56:29","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 13:56:30","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 13:56:30","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 13:56:30","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 13:56:30","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 13:56:30","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 13:56:30","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 13:56:31","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 13:56:31","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 13:56:31","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 13:56:31","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 13:56:31","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 13:56:31","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 13:56:32","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 13:56:32","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 13:56:32","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 13:56:32","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 13:56:32","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 13:56:32","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 13:56:32","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 13:56:33","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 13:56:33","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty AND key = CDS-13314"
+"2026-06-22 13:56:33","INFO","Loaded page 1, toIndex=1, totalFilterCount=1"
+"2026-06-22 13:56:33","INFO","Preparing Cloud attribute mappings for schema 'Catalogue de données'"
+"2026-06-22 13:56:34","INFO","Migrating objects for schema 'Catalogue de données'"
+"2026-06-22 13:56:34","INFO","Searching Cloud object for label ' IlO-tina-ade-tls01'"
+"2026-06-22 13:56:34","WARNING","No Cloud object found for label ' IlO-tina-ade-tls01'. Skipping."
+"2026-06-22 13:56:34","INFO","Schema found: {
+  ""id"": 5,
+  ""name"": ""Schema Analyse & Conception"",
+  ""objectSchemaKey"": ""SMGP"",
+  ""status"": ""Ok"",
+  ""created"": ""2022-01-27T21:46:58.795Z"",
+  ""updated"": ""2025-12-19T16:00:32.589Z"",
+  ""objectCount"": 18,
+  ""archivedObjectCount"": 0,
+  ""objectTypeCount"": 10
+}"
+"2026-06-22 13:56:34","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 13:56:34","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:56:34","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 13:56:34","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 13:56:34","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 13:56:34","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 13:56:35","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 13:56:35","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 13:56:35","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 13:56:35","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 13:56:35","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 13:56:35","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 13:56:36","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 13:56:36","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 13:56:36","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 13:59:25","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 13:59:25","INFO","List of DC schemas: [
+  {
+    ""id"": 3,
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""status"": ""Ok"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 53
+  },
+  {
+    ""id"": 5,
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""status"": ""Ok"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""archivedObjectCount"": 0,
+    ""objectTypeCount"": 10
+  }
+]"
+"2026-06-22 13:59:26","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:59:32","INFO","Schema found: {
+  ""id"": 3,
+  ""name"": ""Catalogue de données"",
+  ""objectSchemaKey"": ""CDS"",
+  ""status"": ""Ok"",
+  ""created"": ""2021-11-03T13:50:27.498Z"",
+  ""updated"": ""2025-02-04T08:05:41.853Z"",
+  ""objectCount"": 8518,
+  ""archivedObjectCount"": 0,
+  ""objectTypeCount"": 53
+}"
+"2026-06-22 13:59:32","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 13:59:32","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:59:32","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 13:59:32","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 13:59:32","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 13:59:33","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 13:59:33","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 13:59:33","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 13:59:33","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 13:59:33","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 13:59:33","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 13:59:33","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 13:59:34","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 13:59:34","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 13:59:34","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 13:59:34","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 13:59:34","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 13:59:34","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 13:59:35","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 13:59:35","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 13:59:35","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 13:59:35","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 13:59:35","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 13:59:35","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 13:59:35","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 13:59:36","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 13:59:36","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 13:59:36","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 13:59:36","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 13:59:36","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 13:59:36","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 13:59:37","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 13:59:37","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 13:59:37","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 13:59:37","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 13:59:37","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 13:59:37","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 13:59:38","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 13:59:38","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 13:59:38","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 13:59:38","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 13:59:38","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 13:59:38","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 13:59:38","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 13:59:39","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 13:59:39","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 13:59:39","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 13:59:39","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 13:59:39","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 13:59:39","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 13:59:40","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 13:59:40","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 13:59:40","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 13:59:40","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 13:59:40","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 13:59:40","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 13:59:41","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty AND key = CDS-13314"
+"2026-06-22 13:59:41","INFO","Loaded page 1, toIndex=1, totalFilterCount=1"
+"2026-06-22 13:59:41","INFO","Preparing Cloud attribute mappings for schema 'Catalogue de données'"
+"2026-06-22 13:59:41","INFO","Migrating objects for schema 'Catalogue de données'"
+"2026-06-22 13:59:41","INFO","Searching Cloud object for label ' IlO-tina-ade-tls01'"
+"2026-06-22 13:59:42","WARNING","Multiple Cloud objects found for label ' IlO-tina-ade-tls01'. Using the first result."
+"2026-06-22 13:59:42","INFO","Preparing to update Cloud object ' IlO-tina-ade-tls01' (id=4223) with 1 project attributes"
+"2026-06-22 13:59:42","INFO","Calling Update API: URI: https://api.atlassian.com/jsm/assets/workspace/1e9f942f-3f7e-40bc-b872-d3b3790c80dc/v1/object/4223, Payload: {
+  ""attributes"": [
+    {
+      ""objectTypeAttributeId"": ""416"",
+      ""objectAttributeValues"": [
+        {
+          ""value"": ""10081""
+        }
+      ]
+    }
+  ]
+}"
+"2026-06-22 13:59:42","ERROR","Failed to update Cloud object ' IlO-tina-ade-tls01' (id=4223)."
+"2026-06-22 13:59:42","INFO","Schema found: {
+  ""id"": 5,
+  ""name"": ""Schema Analyse & Conception"",
+  ""objectSchemaKey"": ""SMGP"",
+  ""status"": ""Ok"",
+  ""created"": ""2022-01-27T21:46:58.795Z"",
+  ""updated"": ""2025-12-19T16:00:32.589Z"",
+  ""objectCount"": 18,
+  ""archivedObjectCount"": 0,
+  ""objectTypeCount"": 10
+}"
+"2026-06-22 13:59:42","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 13:59:42","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 13:59:42","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 13:59:42","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 13:59:43","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 13:59:43","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 13:59:43","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 13:59:43","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 13:59:43","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 13:59:43","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 13:59:44","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 13:59:44","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 13:59:44","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 13:59:44","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 13:59:44","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 14:00:21","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 14:00:21","INFO","List of cloud schemas: [
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:2"",
+    ""id"": ""2"",
+    ""name"": ""Catalogue de données"",
+    ""objectSchemaKey"": ""CDS"",
+    ""created"": ""2021-11-03T13:50:27.498Z"",
+    ""updated"": ""2025-02-04T08:05:41.853Z"",
+    ""objectCount"": 8518,
+    ""objectTypeCount"": 53,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:3"",
+    ""id"": ""3"",
+    ""name"": ""Schema Analyse & Conception"",
+    ""objectSchemaKey"": ""SMGP"",
+    ""created"": ""2022-01-27T21:46:58.795Z"",
+    ""updated"": ""2025-12-19T16:00:32.589Z"",
+    ""objectCount"": 18,
+    ""objectTypeCount"": 10,
+    ""status"": ""Ok"",
+    ""canManage"": true,
+    ""crossSchemaReferencingAllowed"": false
+  },
+  {
+    ""workspaceId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc"",
+    ""globalId"": ""1e9f942f-3f7e-40bc-b872-d3b3790c80dc:1"",
+    ""id"": ""1"",
+    ""name"": ""Services"",
+    ""objectSchemaKey"": ""SVC"",
+    ""created"": ""2026-06-06T17:19:57.095Z"",
+    ""updated"": ""2026-06-06T17:19:57.095Z"",
+    ""objectCount"": 0,
+    ""objectTypeCount"": 4,
+    ""description"": ""Contains the 'Service' object type and services your site uses across projects."",
+    ""status"": ""Ok"",
+    ""canManage"": false,
+    ""crossSchemaReferencingAllowed"": true
+  }
+]"
+"2026-06-22 14:00:26","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 14:00:26","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 14:00:26","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 14:00:27","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 14:00:27","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 14:00:27","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 14:00:27","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 14:00:27","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 14:00:27","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 14:00:28","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 14:00:28","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 14:00:28","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 14:00:28","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 14:00:28","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 14:00:28","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 14:00:28","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 14:00:29","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 14:00:29","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 14:00:29","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 14:00:29","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 14:00:29","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 14:00:29","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 14:00:29","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 14:00:30","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 14:00:30","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 14:00:30","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 14:00:30","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 14:00:30","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 14:00:30","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 14:00:30","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 14:00:31","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 14:00:31","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 14:00:31","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 14:00:31","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 14:00:31","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 14:00:32","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 14:00:32","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 14:00:32","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 14:00:32","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 14:00:32","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 14:00:32","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 14:00:32","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 14:00:33","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 14:00:33","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 14:00:33","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 14:00:33","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 14:00:33","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 14:00:33","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 14:00:34","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 14:00:34","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 14:00:34","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 14:00:34","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 14:00:34","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 14:00:35","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 14:00:35","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 14:00:35","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty AND key = CDS-13314"
+"2026-06-22 14:00:35","INFO","Loaded page 1, toIndex=1, totalFilterCount=1"
+"2026-06-22 14:00:35","INFO","Preparing Cloud attribute mappings for schema 'Catalogue de données'"
+"2026-06-22 14:00:36","INFO","Migrating objects for schema 'Catalogue de données'"
+"2026-06-22 14:00:36","INFO","Searching Cloud object for label ' IlO-tina-ade-tls01'"
+"2026-06-22 14:00:37","WARNING","Multiple Cloud objects found for label ' IlO-tina-ade-tls01'. Using the first result."
+"2026-06-22 14:00:37","INFO","Preparing to update Cloud object ' IlO-tina-ade-tls01' (id=4223) with 1 project attributes"
+"2026-06-22 14:00:37","INFO","Calling Update API: URI: https://api.atlassian.com/jsm/assets/workspace/1e9f942f-3f7e-40bc-b872-d3b3790c80dc/v1/object/4223, Payload: {
+  ""attributes"": [
+    {
+      ""objectTypeAttributeId"": ""416"",
+      ""objectAttributeValues"": [
+        {
+          ""value"": ""10081""
+        }
+      ]
+    }
+  ]
+}"
+"2026-06-22 14:00:37","ERROR","Failed to update Cloud object ' IlO-tina-ade-tls01' (id=4223)."
+"2026-06-22 14:00:37","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 14:00:37","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 14:00:37","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 14:00:37","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 14:00:37","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 14:00:37","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 14:00:37","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 14:00:38","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 14:00:38","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 14:00:38","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 14:00:38","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 14:00:38","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 14:00:38","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 14:00:38","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 14:01:34","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 14:01:42","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 14:01:42","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 14:01:42","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 14:01:43","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 14:01:43","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 14:01:43","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 14:01:43","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 14:01:43","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 14:01:43","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 14:01:43","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 14:01:44","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 14:01:44","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 14:01:44","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 14:01:44","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 14:01:44","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 14:01:44","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 14:01:44","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 14:01:45","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 14:01:45","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 14:01:45","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 14:01:45","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 14:01:45","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 14:01:45","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 14:01:46","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 14:01:47","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 14:01:47","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 14:01:47","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 14:01:47","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 14:01:47","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 14:01:47","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 14:01:47","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 14:01:48","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 14:01:49","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 14:01:49","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 14:01:49","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 14:01:49","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 14:01:49","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 14:01:49","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 14:01:50","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 14:01:50","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 14:01:50","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 14:01:50","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty AND key = CDS-13314"
+"2026-06-22 14:01:50","INFO","Loaded page 1, toIndex=1, totalFilterCount=1"
+"2026-06-22 14:01:50","INFO","Preparing Cloud attribute mappings for schema 'Catalogue de données'"
+"2026-06-22 14:01:51","INFO","Migrating objects for schema 'Catalogue de données'"
+"2026-06-22 14:01:51","INFO","Searching Cloud object for label ' IlO-tina-ade-tls01'"
+"2026-06-22 14:01:52","WARNING","Multiple Cloud objects found for label ' IlO-tina-ade-tls01'. Using the first result."
+"2026-06-22 14:01:52","INFO","Preparing to update Cloud object ' IlO-tina-ade-tls01' (id=4223) with 1 project attributes"
+"2026-06-22 14:01:52","INFO","Calling Update API: URI: https://api.atlassian.com/jsm/assets/workspace/1e9f942f-3f7e-40bc-b872-d3b3790c80dc/v1/object/4223, Payload: {
+  ""attributes"": [
+    {
+      ""objectTypeAttributeId"": ""416"",
+      ""objectAttributeValues"": [
+        {
+          ""value"": ""10081""
+        }
+      ]
+    }
+  ]
+}"
+"2026-06-22 14:01:52","ERROR","Failed to update Cloud object ' IlO-tina-ade-tls01' (id=4223)."
+"2026-06-22 14:01:52","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 14:01:52","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 14:01:53","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 14:01:53","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 14:01:53","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 14:01:53","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 14:01:53","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 14:01:54","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 14:01:54","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 14:01:54","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 14:01:54","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 14:01:54","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 14:01:54","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 14:01:54","SUCCESS","Jira Assets project attribute migration complete."
+"2026-06-22 16:04:51","SUCCESS","Starting Jira Assets project attribute migration"
+"2026-06-22 16:04:58","INFO","Processing Data Center schema 'Catalogue de données' (id=3)"
+"2026-06-22 16:04:58","INFO","Found matching Cloud schema 'Catalogue de données' (id=2)"
+"2026-06-22 16:04:58","INFO","Loading attributes for Data Center object type 'Machines physiques'"
+"2026-06-22 16:04:58","INFO","Loading attributes for Data Center object type 'Familles de produits'"
+"2026-06-22 16:04:58","INFO","Loading attributes for Data Center object type 'Familles de services'"
+"2026-06-22 16:04:58","INFO","Loading attributes for Data Center object type 'Satellite - Import_CI'"
+"2026-06-22 16:04:59","INFO","Loading attributes for Data Center object type 'Type client'"
+"2026-06-22 16:04:59","INFO","Loading attributes for Data Center object type 'Environnements'"
+"2026-06-22 16:04:59","INFO","Loading attributes for Data Center object type 'Machines virtuelles (Obsolète)'"
+"2026-06-22 16:04:59","INFO","Loading attributes for Data Center object type 'Environnements - Import_CI'"
+"2026-06-22 16:04:59","INFO","Loading attributes for Data Center object type 'Groupes Insight'"
+"2026-06-22 16:04:59","INFO","Loading attributes for Data Center object type 'Priorités'"
+"2026-06-22 16:05:00","INFO","Loading attributes for Data Center object type 'Périphérique'"
+"2026-06-22 16:05:00","INFO","Loading attributes for Data Center object type 'Types de ticket'"
+"2026-06-22 16:05:00","INFO","Loading attributes for Data Center object type 'Importation CSV'"
+"2026-06-22 16:05:00","INFO","Loading attributes for Data Center object type 'Groupements d'équipes'"
+"2026-06-22 16:05:00","INFO","Loading attributes for Data Center object type 'Famille OS - Import_CI'"
+"2026-06-22 16:05:00","INFO","Loading attributes for Data Center object type 'Satellite'"
+"2026-06-22 16:05:00","INFO","Loading attributes for Data Center object type 'Stockage'"
+"2026-06-22 16:05:01","INFO","Loading attributes for Data Center object type 'Sous-tâche'"
+"2026-06-22 16:05:01","INFO","Loading attributes for Data Center object type 'Famille OS'"
+"2026-06-22 16:05:01","INFO","Loading attributes for Data Center object type 'Services techniques'"
+"2026-06-22 16:05:01","INFO","Loading attributes for Data Center object type 'Version OS - Import_CI'"
+"2026-06-22 16:05:01","INFO","Loading attributes for Data Center object type 'Services métiers'"
+"2026-06-22 16:05:01","INFO","Loading attributes for Data Center object type 'Serveur lame'"
+"2026-06-22 16:05:01","INFO","Loading attributes for Data Center object type 'Sous catégories'"
+"2026-06-22 16:05:02","INFO","Loading attributes for Data Center object type 'Version OS'"
+"2026-06-22 16:05:02","INFO","Loading attributes for Data Center object type 'Type inconnu'"
+"2026-06-22 16:05:02","INFO","Loading attributes for Data Center object type 'Statut - Import_CI'"
+"2026-06-22 16:05:02","INFO","Loading attributes for Data Center object type 'Statut'"
+"2026-06-22 16:05:02","INFO","Loading attributes for Data Center object type 'ProjetServiceSousCategorie'"
+"2026-06-22 16:05:02","INFO","Loading attributes for Data Center object type 'Baies de disques'"
+"2026-06-22 16:05:02","INFO","Loading attributes for Data Center object type 'Criticité - Import_CI'"
+"2026-06-22 16:05:03","INFO","Loading attributes for Data Center object type 'Produits'"
+"2026-06-22 16:05:03","INFO","Loading attributes for Data Center object type 'Composants réseau'"
+"2026-06-22 16:05:03","INFO","Loading attributes for Data Center object type 'Licence OS - Import_CI'"
+"2026-06-22 16:05:03","INFO","Loading attributes for Data Center object type 'Criticité'"
+"2026-06-22 16:05:03","INFO","Loading attributes for Data Center object type 'Spécifications génériques - Import_CI'"
+"2026-06-22 16:05:03","INFO","Loading attributes for Data Center object type 'Licence OS'"
+"2026-06-22 16:05:03","INFO","Loading attributes for Data Center object type 'CPU - Import_CI'"
+"2026-06-22 16:05:04","INFO","Loading attributes for Data Center object type 'ProjetProduit'"
+"2026-06-22 16:05:04","INFO","Loading attributes for Data Center object type 'Firewall'"
+"2026-06-22 16:05:04","INFO","Loading attributes for Data Center object type 'RAM - Import_CI'"
+"2026-06-22 16:05:04","INFO","Loading attributes for Data Center object type 'Planificateur'"
+"2026-06-22 16:05:04","INFO","Loading attributes for Data Center object type 'CPU'"
+"2026-06-22 16:05:04","INFO","Loading attributes for Data Center object type 'Machines virtuelles'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'Fiche projet'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur - Import_CI'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'RAM'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'Sites agences'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'vCluster / Hyperviseur'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'Spécifications génériques'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'Matériels reliés'"
+"2026-06-22 16:05:05","INFO","Loading attributes for Data Center object type 'Import_CI'"
+"2026-06-22 16:05:06","INFO","Loading attributes for Data Center object type 'OLD'"
+"2026-06-22 16:05:06","INFO","Executing Data Center AQL query for schema 'Catalogue de données': ""Projets"" is not empty OR ""Projet"" is not empty AND key = CDS-13314"
+"2026-06-22 16:05:06","INFO","Loaded page 1, toIndex=1, totalFilterCount=1"
+"2026-06-22 16:05:06","INFO","Preparing Cloud attribute mappings for schema 'Catalogue de données'"
+"2026-06-22 16:05:07","INFO","Migrating objects for schema 'Catalogue de données'"
+"2026-06-22 16:05:07","INFO","Searching Cloud object for label ' IlO-tina-ade-tls01'"
+"2026-06-22 16:05:08","WARNING","Multiple Cloud objects found for label ' IlO-tina-ade-tls01'. Using the first result."
+"2026-06-22 16:05:08","INFO","Preparing to update Cloud object ' IlO-tina-ade-tls01' (id=4223) with 1 project attributes"
+"2026-06-22 16:05:08","INFO","Calling Update API: URI: https://api.atlassian.com/jsm/assets/workspace/1e9f942f-3f7e-40bc-b872-d3b3790c80dc/v1/object/4223, Payload: {
+  ""attributes"": [
+    {
+      ""objectTypeAttributeId"": ""416"",
+      ""objectAttributeValues"": [
+        {
+          ""value"": ""10081""
+        }
+      ]
+    }
+  ]
+}"
+"2026-06-22 16:05:09","SUCCESS","Successfully updated Cloud object ' IlO-tina-ade-tls01' (id=4223)."
+"2026-06-22 16:05:09","INFO","Processing Data Center schema 'Schema Analyse & Conception' (id=5)"
+"2026-06-22 16:05:09","INFO","Found matching Cloud schema 'Schema Analyse & Conception' (id=3)"
+"2026-06-22 16:05:09","INFO","Loading attributes for Data Center object type 'Knowledge'"
+"2026-06-22 16:05:09","INFO","Loading attributes for Data Center object type 'iPhone'"
+"2026-06-22 16:05:09","INFO","Loading attributes for Data Center object type 'Skill'"
+"2026-06-22 16:05:09","INFO","Loading attributes for Data Center object type 'Users'"
+"2026-06-22 16:05:10","INFO","Loading attributes for Data Center object type 'Rate'"
+"2026-06-22 16:05:10","INFO","Loading attributes for Data Center object type 'Locations'"
+"2026-06-22 16:05:10","INFO","Loading attributes for Data Center object type 'Android'"
+"2026-06-22 16:05:10","INFO","Loading attributes for Data Center object type 'Profiles'"
+"2026-06-22 16:05:10","INFO","Loading attributes for Data Center object type 'Skill Categories'"
+"2026-06-22 16:05:10","INFO","Loading attributes for Data Center object type 'Téléphone'"
+"2026-06-22 16:05:10","WARNING","No project attributes of type 6 found for schema 'Schema Analyse & Conception'."
+"2026-06-22 16:05:10","SUCCESS","Jira Assets project attribute migration complete."

@@ -1,0 +1,21 @@
+﻿[
+    {
+        "pageId":  "507576330",
+        "spaceKey":  "RMP",
+        "pageTitle":  "00-Espace RQMP 🔒",
+        "readUsers":  [
+                          "Stephane.CABAGNO@open-groupe.com"
+                      ],
+        "readGroups":  [
+                           "U_DDEL_RespQMP",
+                           "U_DDEL_RelaisRQP",
+                           "U_manager_CDP_DDEL"
+                       ],
+        "updateUsers":  [
+
+                        ],
+        "updateGroups":  [
+
+                         ]
+    }
+]

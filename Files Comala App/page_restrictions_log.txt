@@ -1,0 +1,77 @@
+[2026-05-01 12:04:11] [INFO] ====== Page Restrictions Script Started ======
+[2026-05-01 12:04:11] [INFO] Reading Json file from: C:\Users\SimonLUCCHESINI\OneDrive - CBTW\Documents\Dev\Scripts Atlassian\Files Comala App\restrictions_export.json
+[2026-05-01 12:04:11] [INFO] ======== Processing Row 1 ========
+[2026-05-01 12:04:11] [INFO] Space Key: RMP | Title: 00-Espace RQMP ?? | Read Users: Stephane.CABAGNO@open-groupe.com | Read Groups: U_DDEL_RespQMP U_DDEL_RelaisRQP U_manager_CDP_DDEL | Update Users:  | Update Groups: 
+[2026-05-01 12:04:11] [INFO] Looking up user: Stephane.CABAGNO@open-groupe.com
+[2026-05-01 12:04:11] [SUCCESS] Found user: Stephane.CABAGNO@open-groupe.com (Account ID: 70121:c13a9b44-1350-4f94-bee7-d8286d7314a6)
+[2026-05-01 12:04:11] [INFO] Looking up group: U_DDEL_RespQMP
+[2026-05-01 12:04:12] [SUCCESS] Found group: U_DDEL_RespQMP (Group ID: 36b53d5a-aeb5-44e3-ae77-5f4b36f0c4a2)
+[2026-05-01 12:04:12] [INFO] Looking up group: U_DDEL_RelaisRQP
+[2026-05-01 12:04:12] [SUCCESS] Found group: U_DDEL_RelaisRQP (Group ID: 516d2ba8-289a-467c-819c-d6e14e789ba0)
+[2026-05-01 12:04:12] [INFO] Looking up group: U_manager_CDP_DDEL
+[2026-05-01 12:04:12] [SUCCESS] Found group: U_manager_CDP_DDEL (Group ID: 1a7f8aad-db12-4d73-a41e-dbed09c6505b)
+[2026-05-01 12:04:12] [INFO] Searching for page: 00-Espace RQMP ?? in space RMP
+[2026-05-01 12:04:12] [INFO] Constructed search for page : {
+    "UseBasicParsing":  true,
+    "Method":  "GET",
+    "Headers":  {
+                    "Authorization":  "Basic c2x1Y2NoZXNpbmlAY2J0dy50ZWNoOkFUQVRUM3hGZkdGMGhveExMRkVNelVHRkhYaGFJcGM3c25VZFRFNUdBakFkN19pSXBJUDFYTG8wN1FyVUJHc0c1S3ljSnhxQzRsc2NhekprQWlIOThrdmN5M3hUdlJlc3QzY21oR291WlV5cXliaHJtS3pxX1ZYdXBsX21sMHQydjd0NkNaRDRJYlZ0YjE1Tl9MNzVVSy1jeDFLNG1yOW9MTG1rVzZnVmtlUlJyc3BiTkVBYXF5WT05RTVENDJGQw==",
+                    "Content-Type":  "application/json; charset=utf-8"
+                },
+    "Uri":  "https://confluence-open-groupe-sandbox.atlassian.net//wiki/rest/api/content/search?cql=type%3dpage+and+space%3dRMP+and+title+%7e+%2200-Espace+RQMP+%f0%9f%94%92%22\u0026limit=25"
+}
+[2026-05-01 12:04:12] [INFO] @{id=27951178; type=page; status=current; title=00-Espace RQMP ??; childTypes=; macroRenderedOutput=; restrictions=; _expandable=; _links=}
+[2026-05-01 12:04:12] [INFO] 00-Espace RQMP 
+[2026-05-01 12:04:12] [INFO] 00-Espace RQMP ??
+[2026-05-01 12:04:12] [SUCCESS] Found page: 00-Espace RQMP ?? (Page ID: 27951178)
+[2026-05-01 12:04:12] [INFO] Constructed restrictions body for page ID 27951178 : [
+    {
+        "operation":  "read",
+        "restrictions":  {
+                             "user":  [
+                                          {
+                                              "accountId":  "63b579fd6f068efec8f83f1d",
+                                              "type":  "user"
+                                          },
+                                          {
+                                              "accountId":  "70121:c13a9b44-1350-4f94-bee7-d8286d7314a6",
+                                              "type":  "user"
+                                          }
+                                      ],
+                             "group":  [
+                                           {
+                                               "id":  "36b53d5a-aeb5-44e3-ae77-5f4b36f0c4a2",
+                                               "type":  "group"
+                                           },
+                                           {
+                                               "id":  "516d2ba8-289a-467c-819c-d6e14e789ba0",
+                                               "type":  "group"
+                                           },
+                                           {
+                                               "id":  "1a7f8aad-db12-4d73-a41e-dbed09c6505b",
+                                               "type":  "group"
+                                           }
+                                       ]
+                         }
+    },
+    {
+        "operation":  "update",
+        "restrictions":  {
+                             "user":  [
+                                          {
+                                              "accountId":  "63b579fd6f068efec8f83f1d",
+                                              "type":  "user"
+                                          }
+                                      ]
+                         }
+    }
+]
+[2026-05-01 12:04:12] [INFO] Adding restriction to page ID: 27951178
+[2026-05-01 12:04:13] [SUCCESS] Successfully added restriction to page 27951178
+[2026-05-01 12:04:13] [INFO] 
+[2026-05-01 12:04:13] [INFO] ====== Script Summary ======
+[2026-05-01 12:04:13] [INFO] Total rows processed: 1
+[2026-05-01 12:04:13] [SUCCESS] Successful: 1
+[2026-05-01 12:04:13] [SUCCESS] Failed: 0
+[2026-05-01 12:04:13] [INFO] Log file: C:\Users\SimonLUCCHESINI\OneDrive - CBTW\Documents\Dev\Scripts Atlassian\Files Comala App\page_restrictions_log.txt
+[2026-05-01 12:04:13] [INFO] ====== Script Completed ======

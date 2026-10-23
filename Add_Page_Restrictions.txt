@@ -1,0 +1,488 @@
+#Requires -Version 5.1
+
+<#
+.SYNOPSIS
+    Adds page restrictions to Confluence pages based on CSV input
+    
+.DESCRIPTION
+    This script reads a CSV file containing page information and applies restrictions
+    to those pages using Atlassian APIs.
+    
+.PARAMETER CsvPath
+    Path to the CSV file (defaults to .\Files\page list.csv)
+    
+.PARAMETER LogPath
+    Path to the log file (defaults to .\page_restrictions_log.txt)
+#>
+
+param(
+    [string]$JsonPath = (Join-Path $PSScriptRoot "Files Comala App\restrictions_export.json"),
+    [string]$LogPath = (Join-Path $PSScriptRoot "Files Comala App\page_restrictions_log.txt")
+)
+
+# ============================================================================
+# Configuration
+# ============================================================================
+
+# Environment Variables - Update these with your actual values
+$baseUrl = "https://confluence-open-groupe-sandbox.atlassian.net/"                  # e.g., "https://your-instance.atlassian.net"
+$actorEmail = "slucchesini@cbtw.tech"              # Your email
+$actorId = "63b579fd6f068efec8f83f1d"                    # Your account ID
+$token = ""                   # Your API token
+$orgId = "983kk339-4064-1bj1-k42d-8bjc637j218d"                       # Organization ID
+$orgToken = ""                 # Organization token
+
+# Verify environment variables are set
+$requiredVars = @("baseUrl", "actorEmail", "actorId", "token", "orgId", "orgToken")
+foreach ($var in $requiredVars) {
+    $value = Get-Variable -Name $var -ValueOnly
+    if (-not $value) {
+        Write-Host "ERROR: Environment variable '$var' is not set." -ForegroundColor Red
+        Write-Host "Please set the following environment variables before running this script:"
+        Write-Host "  - CONFLUENCE_BASE_URL"
+        Write-Host "  - CONFLUENCE_USER_EMAIL"
+        Write-Host "  - CONFLUENCE_USER_ID"
+        Write-Host "  - CONFLUENCE_API_TOKEN"
+        Write-Host "  - ATLASSIAN_ORG_ID"
+        Write-Host "  - ATLASSIAN_ORG_TOKEN"
+        exit 1
+    }
+}
+
+# ============================================================================
+# Initialize Logging
+# ============================================================================
+
+function Write-Log {
+    param(
+        [string]$Message,
+        [ValidateSet("INFO", "ERROR", "WARNING", "SUCCESS")]
+        [string]$Level = "INFO"
+    )
+    
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $logEntry = "[$timestamp] [$Level] $Message"
+    
+    # Write to console
+    switch ($Level) {
+        "INFO"    { Write-Host $logEntry -ForegroundColor White }
+        "ERROR"   { Write-Host $logEntry -ForegroundColor Red }
+        "WARNING" { Write-Host $logEntry -ForegroundColor Yellow }
+        "SUCCESS" { Write-Host $logEntry -ForegroundColor Green }
+    }
+    
+    # Write to file
+    Add-Content -Path $LogPath -Value $logEntry
+}
+
+# Clear previous log
+if (Test-Path $LogPath) {
+    Clear-Content -Path $LogPath
+}
+
+Write-Log "====== Page Restrictions Script Started ======"
+
+# ============================================================================
+# Helper Functions
+# ============================================================================
+
+function Get-AuthHeaders {
+    param(
+        [switch]$UseOrgToken
+    )
+    
+    if ($UseOrgToken) {
+        $auth = "Bearer " + $orgToken
+    } else {
+        $auth = "Basic " + [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("${actorEmail}:${token}"))
+    }
+    
+    return @{
+        "Authorization" = $auth
+        "Content-Type"  = "application/json"
+    }
+}
+
+function Get-UserAccountId {
+    param(
+        [string]$Email
+    )
+    
+    $directoryId = "-"
+    $queryParams = "searchTerm=$Email"
+    $uri = "https://api.atlassian.com/admin/v2/orgs/$orgId/directories/$directoryId/users?$queryParams"
+
+    $params = @{
+        Uri     = $uri
+        Method  = "GET"
+        Headers = Get-AuthHeaders -UseOrgToken
+    }
+    
+    try {
+        $response = Invoke-RestMethod @params
+
+        if ($response.PSObject.Properties.Name -contains "data" -and $response.data.Count -gt 0) {
+            # Find exact match
+            $exactMatch = $response.data | Where-Object { $_.email -eq $Email }
+            
+            if ($exactMatch) {
+                Write-Log "Found user: $Email (Account ID: $($exactMatch.accountId))" -Level "SUCCESS"
+                return $exactMatch.accountId
+            } else {
+                Write-Log "Found user but email doesn't match exactly: $Email" -Level "WARNING"
+                return $null
+            }
+        } else {
+            Write-Log "No users found with email: $Email" -Level "WARNING"
+            return $null
+        }
+    } catch {
+        Write-Log "Error searching for user ($Email): $($_.Exception.Message)" -Level "ERROR"
+        return $null
+    }
+}
+
+function Get-GroupId {
+    param(
+        [string]$GroupName
+    )
+    
+    $directoryId = "-"
+    $queryParams = "searchTerm=$GroupName"
+    $uri = "https://api.atlassian.com/admin/v2/orgs/$orgId/directories/$directoryId/groups?$queryParams"
+    
+    $params = @{
+        Uri     = $uri
+        Method  = "GET"
+        Headers = Get-AuthHeaders -UseOrgToken
+    }
+    
+    try {
+        $response = Invoke-RestMethod @params
+        
+        if ($response.PSObject.Properties.Name -contains "data" -and $response.data.Count -gt 0) {
+            # Find exact match
+            $exactMatch = $response.data | Where-Object { $_.name -eq $GroupName }
+            
+            if ($exactMatch) {
+                Write-Log "Found group: $GroupName (Group ID: $($exactMatch.id))" -Level "SUCCESS"
+                return $exactMatch.id
+            } else {
+                Write-Log "Found group but name doesn't match exactly: $GroupName" -Level "WARNING"
+                return $null
+            }
+        } else {
+            Write-Log "No groups found with name: $GroupName" -Level "WARNING"
+            return $null
+        }
+    } catch {
+        Write-Log "Error searching for group ($GroupName): $($_.Exception.Message)" -Level "ERROR"
+        return $null
+    }
+}
+
+function Get-PageByCQL {
+    param(
+        [string]$SpaceKey,
+        [string]$Title
+    )
+    
+    $cql = [System.Web.HttpUtility]::UrlEncode("type=page and space=$SpaceKey and title ~ `"$Title`"")
+    $uri = "$baseUrl/wiki/rest/api/content/search?cql=$cql&limit=25"
+    
+    $headers = Get-AuthHeaders
+    $headers["Content-Type"] = "application/json; charset=utf-8"
+    $params = @{
+        Uri     = $uri
+        Method  = "GET"
+        Headers = $headers
+        UseBasicParsing = $true
+    }
+
+    $emojiRegex = '[\u2000-\u3300]|[\ud83c-\ud83e][\udc00-\udfff]'
+    try {
+        while ($true) {
+            try {
+                $resp = Invoke-WebRequest @params
+                $rawJson = [System.Text.Encoding]::UTF8.GetString($resp.RawContentStream.ToArray())
+                $response = $rawJson | ConvertFrom-Json
+                if ($response.PSObject.Properties.Name -contains "results" -and $response.results.Count -gt 0) {
+                    # Find exact match
+                    $exactMatch = $response.results | Where-Object { ($Title -replace $emojiRegex, "") -eq ($_.title -replace $emojiRegex, "") }
+                    if ($exactMatch) {
+                        Write-Log "Found page: $Title (Page ID: $($exactMatch.id))" -Level "SUCCESS"
+                        return $exactMatch.id
+                    } elseif ($response.PSObject.Properties.Name -contains "_links" -and $response._links.PSObject.Properties.Name -contains "next" -and $null -ne $response._links) {
+                        $params.Uri = "$baseUrl/wiki$($response._links.next)"
+                        Write-Log "Multiple pages found, but no exact match. Fetching next page of results with url $baseUrl/wiki$response._links.next..." -Level "INFO"
+                    }
+                    else {
+                        Write-Log "Found page but title doesn't match exactly: $Title" -Level "WARNING"
+                        return $null
+                    }
+                } else {
+                    Write-Log "No pages found with CQL: $cql" -Level "WARNING"
+                    return $null
+                }
+            } catch {
+                $errorResponse = $_.Exception.Response
+                $bodyResp = ""
+                
+                if ($null -ne $errorResponse) {
+                    $statusCode = [int]$errorResponse.StatusCode
+                    
+                    # --- EXTRACTION DU CORPS DE L'ERREUR ---
+                    try {
+                        $stream = $errorResponse.GetResponseStream()
+                        if ($null -ne $stream) {
+                            $reader = New-Object System.IO.StreamReader($stream)
+                            $bodyResp = $reader.ReadToEnd() # Récupère le JSON d'erreur
+                            $reader.Close()
+                        }
+                    } catch {
+                        $bodyResp = "[Impossible de lire le corps de l'erreur]"
+                    }
+                    # ---------------------------------------
+
+                    Write-Log "Failed to search for page $PageId. Status code: $statusCode. Error: $bodyResp" -Level "ERROR"
+                } else {
+                    # Cas où il n'y a même pas de réponse (ex: timeout ou DNS)
+                    Write-Log "Failed to reach API. Error: $($_.Exception.Message)" -Level "ERROR"
+                }
+                break
+            }
+        }            
+    } catch {
+        Write-Log "Error searching for page ($Title in $SpaceKey): $($_.Exception.Message)" -Level "ERROR"
+        return $null
+    }
+}
+
+function ConvertTo-OperationType {
+    param(
+        [string]$PermissionType
+    )
+    
+    switch ($PermissionType.ToLower()) {
+        "edit"   { return "update" }
+        "view"   { return "read" }
+        "update" { return "update" }
+        "read"   { return "read" }
+        default {
+            Write-Log "Unknown permission type: $PermissionType, defaulting to 'read'" -Level "WARNING"
+            return "read"
+        }
+    }
+}
+
+# ============================================================================
+# Main Script Logic
+# ============================================================================
+
+# Check if CSV file exists
+if (-not (Test-Path $JsonPath)) {
+    Write-Log "Json file not found at: $JsonPath" -Level "ERROR"
+    exit 1
+}
+
+Write-Log "Reading Json file from: $JsonPath"
+
+# Import Json
+
+try {
+    $jsonRaw = Get-Content -Path $JsonPath -Raw -Encoding UTF8
+    $jsonData = $jsonRaw | ConvertFrom-Json
+    $json = @($jsonData)
+    if ($null -eq $json -or $json.Count -eq 0) {
+        Write-Log "Le JSON est vide. Aucune restriction à restaurer." -Level "Warning"
+        return
+    }
+} catch {
+    Write-Log "Erreur lecture JSON : $($_.Exception.Message)" -Level "Error"
+    return
+}
+
+# Process each row
+$successCount = 0
+$errorCount = 0
+$rowNumber = 0
+
+foreach ($item in $json) {
+    $rowNumber++
+    Write-Log "======== Processing Row $rowNumber ========"
+    
+    # Extract Json attributes
+    $spaceKey = $item."spaceKey"
+    $title = $item."pageTitle"
+    $readUsers = $item."readUsers"
+    $readGroups = $item."readGroups"
+    $updateUsers = $item."updateUsers"
+    $updateGroups = $item."updateGroups"
+
+    Write-Log "Space Key: $spaceKey | Title: $title | Read Users: $readUsers | Read Groups: $readGroups | Update Users: $updateUsers | Update Groups: $updateGroups"
+    
+    # Validate required fields
+    if (-not $spaceKey -or -not $title) {
+        Write-Log "Missing required fields (Space Key, Title, or Permission Type). Skipping row." -Level "WARNING"
+        continue
+    }
+
+    $newReadUsers = @(@{
+        type = "user"
+        accountId = $actorId
+    })
+    foreach ($userEmail in $readUsers) {
+        Write-Log "Looking up user: $userEmail" -Level "INFO"
+        $accountId = Get-UserAccountId -Email $userEmail
+        
+        if (-not $accountId) {
+            Write-Log "Could not find account ID for user: $userEmail. Skipping row." -Level "WARNING"
+            $errorCount++
+            continue
+        } else {
+            $newReadUsers += @{
+                type = "user"
+                accountId = $accountId
+            }
+        }
+    }
+
+    $newUpdateUsers = @(@{
+        type = "user"
+        accountId = $actorId
+    })
+    foreach ($userEmail in $updateUsers) {
+        Write-Log "Looking up user: $userEmail" -Level "INFO"
+        $accountId = Get-UserAccountId -Email $userEmail
+        
+        if (-not $accountId) {
+            Write-Log "Could not find account ID for user: $userEmail. Skipping row." -Level "WARNING"
+            $errorCount++
+            continue
+        } else {
+            $newUpdateUsers += @{
+                type = "user"
+                accountId = $accountId
+            }
+        }
+    }
+
+    $newReadGroups = @()
+    foreach ($groupName in $readGroups) {
+        Write-Log "Looking up group: $groupName" -Level "INFO"
+        $groupId = Get-GroupId -GroupName $groupName
+        
+        if (-not $groupId) {
+            Write-Log "Could not find group ID for group: $groupName. Skipping row." -Level "WARNING"
+            $errorCount++
+            continue
+        } else {
+            $newReadGroups += @{
+                type = "group"
+                id = $groupId
+            }
+        }
+    }
+
+    $newUpdateGroups = @()
+    foreach ($groupName in $updateGroups) {
+        Write-Log "Looking up group: $groupName" -Level "INFO"
+        $groupId = Get-GroupId -GroupName $groupName
+        
+        if (-not $groupId) {
+            Write-Log "Could not find group ID for group: $groupName. Skipping row." -Level "WARNING"
+            $errorCount++
+            continue
+        } else {
+            $newUpdateGroups += @{
+                type = "group"
+                id = $groupId
+            }
+        }
+    }
+    
+    # Search for the page
+    Write-Log "Searching for page: $title in space $spaceKey" -Level "INFO"
+    $pageId = Get-PageByCQL -SpaceKey $spaceKey -Title $title
+    
+    if (-not $pageId) {
+        Write-Log "Could not find page. Skipping row." -Level "WARNING"
+        $errorCount++
+        continue
+    }
+
+    $results = @()
+    foreach ($op in @("read", "update")) {
+        $users = @(if ($op -eq "read") { $newReadUsers } else { $newUpdateUsers })
+        $groups = @(if ($op -eq "read") { $newReadGroups } else { $newUpdateGroups })
+
+        $restricNode = @{}
+        if ($null -ne $users -and $users.Count -gt 0)  { $restricNode.user = @($users) }
+        if ($null -ne $groups -and $groups.Count -gt 0) { $restricNode.group = @($groups) }
+
+        if ($restricNode.Count -gt 0) {
+            $results += @{
+                operation    = $op
+                restrictions = $restricNode
+            }
+        }
+    }
+
+    Write-Log "Constructed restrictions body for page ID $PageId : $(($results | ConvertTo-Json -Depth 10))"
+
+    $uri = "$baseUrl/wiki/rest/api/content/$PageId/restriction"
+    $params = @{
+        Uri         = $uri
+        Method      = "POST"
+        Headers     = Get-AuthHeaders
+        Body        = @{results=$results} | ConvertTo-Json -Depth 10
+    }
+    
+    Write-Log "Adding restriction to page ID: $pageId" -Level "INFO"
+    try {
+        $response = Invoke-RestMethod @params
+        Write-Log "Successfully added restriction to page $PageId" -Level "SUCCESS"
+        $successCount++
+    } catch {
+        $errorResponse = $_.Exception.Response
+        $bodyResp = ""
+        
+        if ($null -ne $errorResponse) {
+            $statusCode = [int]$errorResponse.StatusCode
+            
+            # --- EXTRACTION DU CORPS DE L'ERREUR ---
+            try {
+                $stream = $errorResponse.GetResponseStream()
+                if ($null -ne $stream) {
+                    $reader = New-Object System.IO.StreamReader($stream)
+                    $bodyResp = $reader.ReadToEnd() # Récupère le JSON d'erreur
+                    $reader.Close()
+                }
+            } catch {
+                $bodyResp = "[Impossible de lire le corps de l'erreur]"
+            }
+            # ---------------------------------------
+
+            Write-Log "Failed to add restriction to page $PageId. Status code: $statusCode. Error: $bodyResp" -Level "ERROR"
+        } else {
+            # Cas où il n'y a même pas de réponse (ex: timeout ou DNS)
+            Write-Log "Failed to reach API for page $PageId. Error: $($_.Exception.Message)" -Level "ERROR"
+        }
+        $errorCount++
+    }
+}
+
+# ============================================================================
+# Summary
+# ============================================================================
+
+Write-Log ""
+Write-Log "====== Script Summary ======"
+Write-Log "Total rows processed: $rowNumber"
+Write-Log "Successful: $successCount" -Level "SUCCESS"
+Write-Log "Failed: $errorCount" -Level $(if ($errorCount -gt 0) { "ERROR" } else { "SUCCESS" })
+Write-Log "Log file: $LogPath"
+Write-Log "====== Script Completed ======"
+
+# Exit with appropriate code
+exit $(if ($errorCount -gt 0) { 1 } else { 0 })

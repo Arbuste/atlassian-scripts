@@ -1,0 +1,122 @@
+[2026-04-29 14:52:22] [INFO] ====== Page Restrictions Script Started ======
+[2026-04-29 14:52:22] [INFO] Reading CSV file from: C:\Users\SimonLUCCHESINI\OneDrive - CBTW\Documents\Dev\Scripts Atlassian\Files\page list.csv
+[2026-04-29 14:52:22] [SUCCESS] Successfully loaded 2 rows from CSV
+[2026-04-29 14:52:22] [INFO] ======== Processing Row 1 ========
+[2026-04-29 14:52:22] [INFO] Space Key: COGMAC | Title: Open Groupe > Docs > Process de migration | Permission Type: View
+[2026-04-29 14:52:22] [INFO] Looking up user: jlemaire@cbtw.tech
+[2026-04-29 14:52:22] [SUCCESS] Found user: jlemaire@cbtw.tech (Account ID: 712020:9cca0136-3876-4cfb-b452-0c215967e85d)
+[2026-04-29 14:52:22] [INFO] Searching for page: Open Groupe > Docs > Process de migration in space COGMAC
+[2026-04-29 14:52:22] [INFO] type%3dpage+and+space%3dCOGMAC+and+title+%7e+%22Open+Groupe+%3e+Docs+%3e+Process+de+migration%22
+[2026-04-29 14:52:23] [INFO] {
+    "results":  [
+                    {
+                        "id":  "372071923721",
+                        "type":  "page",
+                        "status":  "current",
+                        "title":  "Open Groupe \u003e Docs \u003e Process de migration",
+                        "childTypes":  {
+
+                                       },
+                        "macroRenderedOutput":  {
+
+                                                },
+                        "restrictions":  {
+
+                                         },
+                        "_expandable":  {
+                                            "container":  "",
+                                            "metadata":  "",
+                                            "extensions":  "",
+                                            "operations":  "",
+                                            "children":  "",
+                                            "history":  "/rest/api/content/372071923721/history",
+                                            "ancestors":  "",
+                                            "body":  "",
+                                            "version":  "",
+                                            "descendants":  "",
+                                            "space":  "/rest/api/space/COGMAC"
+                                        },
+                        "_links":  {
+                                       "webui":  "/spaces/COGMAC/pages/372071923721/Open+Groupe+Docs+Process+de+migration",
+                                       "self":  "https://positivethinking.atlassian.net/wiki/rest/api/content/372071923721",
+                                       "tinyui":  "/x/CQA3oVY"
+                                   }
+                    }
+                ],
+    "start":  0,
+    "limit":  25,
+    "size":  1,
+    "_links":  {
+                   "base":  "https://positivethinking.atlassian.net/wiki",
+                   "context":  "/wiki",
+                   "self":  "https://positivethinking.atlassian.net/wiki/rest/api/content/search?cql=type%3dpage+and+space%3dCOGMAC+and+title+%7e+%22Open+Groupe+%3e+Docs+%3e+Process+de+migration%22"
+               }
+}
+
+[2026-04-29 14:52:23] [SUCCESS] Found page: Open Groupe > Docs > Process de migration (Page ID: 372071923721)
+[2026-04-29 14:52:23] [INFO] Permission Type 'View' mapped to operation 'read'
+[2026-04-29 14:52:23] [INFO] Adding restriction to page ID: 372071923721
+[2026-04-29 14:52:24] [SUCCESS] Successfully added restriction to page 372071923721
+[2026-04-29 14:52:24] [INFO] ======== Processing Row 2 ========
+[2026-04-29 14:52:24] [INFO] Space Key: COGMAC | Title: Open Groupe > Docs > Process de migration | Permission Type: View
+[2026-04-29 14:52:24] [INFO] Looking up group: Accounting - Finance
+[2026-04-29 14:52:24] [SUCCESS] Found group: Accounting - Finance (Group ID: 7dc947cc-16d4-4d77-9668-3702a47a07a7)
+[2026-04-29 14:52:24] [INFO] Searching for page: Open Groupe > Docs > Process de migration in space COGMAC
+[2026-04-29 14:52:24] [INFO] type%3dpage+and+space%3dCOGMAC+and+title+%7e+%22Open+Groupe+%3e+Docs+%3e+Process+de+migration%22
+[2026-04-29 14:52:24] [INFO] {
+    "results":  [
+                    {
+                        "id":  "372071923721",
+                        "type":  "page",
+                        "status":  "current",
+                        "title":  "Open Groupe \u003e Docs \u003e Process de migration",
+                        "childTypes":  {
+
+                                       },
+                        "macroRenderedOutput":  {
+
+                                                },
+                        "restrictions":  {
+
+                                         },
+                        "_expandable":  {
+                                            "container":  "",
+                                            "metadata":  "",
+                                            "extensions":  "",
+                                            "operations":  "",
+                                            "children":  "",
+                                            "history":  "/rest/api/content/372071923721/history",
+                                            "ancestors":  "",
+                                            "body":  "",
+                                            "version":  "",
+                                            "descendants":  "",
+                                            "space":  "/rest/api/space/COGMAC"
+                                        },
+                        "_links":  {
+                                       "webui":  "/spaces/COGMAC/pages/372071923721/Open+Groupe+Docs+Process+de+migration",
+                                       "self":  "https://positivethinking.atlassian.net/wiki/rest/api/content/372071923721",
+                                       "tinyui":  "/x/CQA3oVY"
+                                   }
+                    }
+                ],
+    "start":  0,
+    "limit":  25,
+    "size":  1,
+    "_links":  {
+                   "base":  "https://positivethinking.atlassian.net/wiki",
+                   "context":  "/wiki",
+                   "self":  "https://positivethinking.atlassian.net/wiki/rest/api/content/search?cql=type%3dpage+and+space%3dCOGMAC+and+title+%7e+%22Open+Groupe+%3e+Docs+%3e+Process+de+migration%22"
+               }
+}
+
+[2026-04-29 14:52:24] [SUCCESS] Found page: Open Groupe > Docs > Process de migration (Page ID: 372071923721)
+[2026-04-29 14:52:24] [INFO] Permission Type 'View' mapped to operation 'read'
+[2026-04-29 14:52:24] [INFO] Adding restriction to page ID: 372071923721
+[2026-04-29 14:52:25] [SUCCESS] Successfully added restriction to page 372071923721
+[2026-04-29 14:52:25] [INFO] 
+[2026-04-29 14:52:25] [INFO] ====== Script Summary ======
+[2026-04-29 14:52:25] [INFO] Total rows processed: 2
+[2026-04-29 14:52:25] [SUCCESS] Successful: 2
+[2026-04-29 14:52:25] [SUCCESS] Failed: 0
+[2026-04-29 14:52:25] [INFO] Log file: C:\Users\SimonLUCCHESINI\OneDrive - CBTW\Documents\Dev\Scripts Atlassian\Files\page_restrictions_log.txt
+[2026-04-29 14:52:25] [INFO] ====== Script Completed ======

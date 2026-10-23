@@ -1,0 +1,331 @@
+"id","name","fieldidentifier","cfname","ishidden"
+15600,AFDSITES_Bug_FC,customfield_10217,Facturable,true
+15601,AFDSITES_Story_FC,customfield_10100,Application,true
+15601,AFDSITES_Story_FC,customfield_10102,Criticality,true
+15601,AFDSITES_Story_FC,customfield_10217,Facturable,true
+14700,AIFE_Demande/Solution_FC,customfield_10706,Approbateurs,true
+14701,AIFE_Incident/Problème_FC,customfield_10706,Approbateurs,true
+15200,ARLANXEO_Story_FC,customfield_10100,Application,true
+15200,ARLANXEO_Story_FC,customfield_10102,Criticality,true
+15200,ARLANXEO_Story_FC,customfield_10217,Facturable,true
+10701,AVV_Besoin_FC,customfield_10100,Application,true
+10701,AVV_Besoin_FC,customfield_10104,Maturity level,true
+10701,AVV_Besoin_FC,customfield_10105,Acceptance Test,true
+10701,AVV_Besoin_FC,customfield_10106,Documentary reference,true
+10701,AVV_Besoin_FC,customfield_10117,Client/Prospect,true
+10701,AVV_Besoin_FC,customfield_10217,Facturable,true
+10701,AVV_Besoin_FC,environment,,true
+10701,AVV_Besoin_FC,labels,,true
+10700,AVV_Candidat_FC,customfield_10100,Application,true
+10700,AVV_Candidat_FC,customfield_10104,Maturity level,true
+10700,AVV_Candidat_FC,customfield_10105,Acceptance Test,true
+10700,AVV_Candidat_FC,customfield_10106,Documentary reference,true
+10700,AVV_Candidat_FC,customfield_10117,Client/Prospect,true
+10700,AVV_Candidat_FC,customfield_10217,Facturable,true
+10700,AVV_Candidat_FC,environment,,true
+10700,AVV_Candidat_FC,labels,,true
+11000,AVV_dispo_FC,customfield_10100,Application,true
+11000,AVV_dispo_FC,customfield_10104,Maturity level,true
+11000,AVV_dispo_FC,customfield_10105,Acceptance Test,true
+11000,AVV_dispo_FC,customfield_10106,Documentary reference,true
+11000,AVV_dispo_FC,customfield_10217,Facturable,true
+11000,AVV_dispo_FC,environment,,true
+11000,AVV_dispo_FC,labels,,true
+14400,AVVH4_story_FC,customfield_10100,Application,true
+14400,AVVH4_story_FC,customfield_10104,Maturity level,true
+14400,AVVH4_story_FC,customfield_10105,Acceptance Test,true
+14400,AVVH4_story_FC,customfield_10106,Documentary reference,true
+14400,AVVH4_story_FC,customfield_10217,Facturable,true
+14400,AVVH4_story_FC,environment,,true
+14400,AVVH4_story_FC,labels,,true
+14400,AVVH4_story_FC,resolution,,true
+10104,AVV_story_FC,customfield_10100,Application,true
+10104,AVV_story_FC,customfield_10104,Maturity level,true
+10104,AVV_story_FC,customfield_10105,Acceptance Test,true
+10104,AVV_story_FC,customfield_10106,Documentary reference,true
+10104,AVV_story_FC,customfield_10217,Facturable,true
+10104,AVV_story_FC,environment,,true
+10104,AVV_story_FC,labels,,true
+10105,AVV_subtask_FC,components,,true
+10105,AVV_subtask_FC,customfield_10100,Application,true
+10105,AVV_subtask_FC,customfield_10104,Maturity level,true
+10105,AVV_subtask_FC,customfield_10105,Acceptance Test,true
+10105,AVV_subtask_FC,customfield_10106,Documentary reference,true
+10105,AVV_subtask_FC,customfield_10115,Receipt date,true
+10105,AVV_subtask_FC,customfield_10117,Client/Prospect,true
+10105,AVV_subtask_FC,customfield_10217,Facturable,true
+10105,AVV_subtask_FC,environment,,true
+10105,AVV_subtask_FC,labels,,true
+10207,BoiteId_FC,customfield_10100,Application,true
+10207,BoiteId_FC,customfield_10101,Business value,true
+10207,BoiteId_FC,customfield_10105,Acceptance Test,true
+10207,BoiteId_FC,customfield_10122,Alert,true
+10207,BoiteId_FC,customfield_10123,Approving RT,true
+10207,BoiteId_FC,customfield_10128,Plugin,true
+10207,BoiteId_FC,customfield_10205,Administrateur/s du projet,true
+10207,BoiteId_FC,customfield_10217,Facturable,true
+10207,BoiteId_FC,fixVersions,,true
+10207,BoiteId_FC,labels,,true
+10207,BoiteId_FC,priority,,true
+10207,BoiteId_FC,versions,,true
+12001,BOOST_creationProjet_FC,customfield_10100,Application,true
+12001,BOOST_creationProjet_FC,customfield_10102,Criticality,true
+12001,BOOST_creationProjet_FC,customfield_10106,Documentary reference,true
+12001,BOOST_creationProjet_FC,customfield_10128,Plugin,true
+12001,BOOST_creationProjet_FC,customfield_10217,Facturable,true
+12001,BOOST_creationProjet_FC,fixVersions,,true
+12001,BOOST_creationProjet_FC,labels,,true
+10304,BOOST_Support_FC,customfield_10100,Application,true
+10304,BOOST_Support_FC,customfield_10102,Criticality,true
+10304,BOOST_Support_FC,customfield_10106,Documentary reference,true
+10304,BOOST_Support_FC,customfield_10128,Plugin,true
+10304,BOOST_Support_FC,customfield_10217,Facturable,true
+10304,BOOST_Support_FC,fixVersions,,true
+10304,BOOST_Support_FC,labels,,true
+12500,CAMPUSFRANCE_Alltypes_FC,customfield_10217,Facturable,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,customfield_10100,Application,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,customfield_10104,Maturity level,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,customfield_10105,Acceptance Test,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,customfield_10106,Documentary reference,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,customfield_10117,Client/Prospect,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,customfield_10217,Facturable,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,environment,,true
+12400,CDP_IDF_OPEN-STAFFING_Besoin_FC,labels,,true
+10301,CDP_NANTES_OPEN_commande_FC,customfield_10217,Facturable,true
+11204,CDP_NANTES_OPEN_DT_FC,priority,,true
+10302,CDP_NANTES_OPEN_sstache_FC,customfield_10217,Facturable,true
+11700,CFRANCE_Bug_FC,customfield_10217,Facturable,true
+14100,DGFiP_Soclage_Entrant_FC,customfield_10217,Facturable,true
+14101,DGFiP_Soclage_Sortant_FC,customfield_10217,Facturable,true
+14102,DGFiP_Soclage_Support_FC,customfield_10217,Facturable,true
+13100,DGFiP_tache_FC,customfield_10217,Facturable,true
+14401,DIRCESAGA_Bug_FC,customfield_10217,Facturable,true
+14402,DIRCESAGA_Story_FC,customfield_10100,Application,true
+14402,DIRCESAGA_Story_FC,customfield_10102,Criticality,true
+14402,DIRCESAGA_Story_FC,customfield_10217,Facturable,true
+11601,DQPA_Amélioration_FC,customfield_10217,Facturable,true
+11601,DQPA_Amélioration_FC,labels,,true
+11601,DQPA_Amélioration_FC,priority,,true
+10800,DQPA_negatif_FC,customfield_10217,Facturable,true
+10800,DQPA_negatif_FC,labels,,true
+10800,DQPA_negatif_FC,priority,,true
+11600,DQPA_Positif_FC,customfield_10217,Facturable,true
+11600,DQPA_Positif_FC,labels,,true
+11600,DQPA_Positif_FC,priority,,true
+11602,DQPA_soustache_FC,customfield_10217,Facturable,true
+11602,DQPA_soustache_FC,priority,,true
+11300,DQPA_tache_FC,customfield_10217,Facturable,true
+10303,DSI_EPIC_FC,customfield_10100,Application,true
+10303,DSI_EPIC_FC,customfield_10102,Criticality,true
+10303,DSI_EPIC_FC,customfield_10106,Documentary reference,true
+10303,DSI_EPIC_FC,customfield_10217,Facturable,true
+10303,DSI_EPIC_FC,versions,,true
+13700,EVI_TEMPLATE_incident_FC,customfield_10706,Approbateurs,true
+13700,EVI_TEMPLATE_incident_FC,customfield_13221,Source,true
+13700,EVI_TEMPLATE_incident_FC,customfield_13613,Service technique,true
+13700,EVI_TEMPLATE_incident_FC,customfield_13615,Equipe en charge,true
+13700,EVI_TEMPLATE_incident_FC,customfield_13616,Sous catégorie,true
+13700,EVI_TEMPLATE_incident_FC,customfield_13617,Matériel relié,true
+13700,EVI_TEMPLATE_incident_FC,customfield_13623,Produit(s),true
+13700,EVI_TEMPLATE_incident_FC,customfield_13701,supervision_id,true
+13700,EVI_TEMPLATE_incident_FC,customfield_13703,Navigateur(s),true
+13700,EVI_TEMPLATE_incident_FC,customfield_13900,Environnement(s),true
+10201,INT_All_FC,assignee,,true
+10201,INT_All_FC,attachment,,true
+10201,INT_All_FC,customfield_10006,Story Points,true
+10201,INT_All_FC,customfield_10100,Application,true
+10201,INT_All_FC,customfield_10101,Business value,true
+10201,INT_All_FC,customfield_10102,Criticality,true
+10201,INT_All_FC,customfield_10105,Acceptance Test,true
+10201,INT_All_FC,customfield_10106,Documentary reference,true
+10201,INT_All_FC,customfield_10112,Time to SLA,true
+10201,INT_All_FC,customfield_10117,Client/Prospect,true
+10201,INT_All_FC,customfield_10118,Go/NoGo date,true
+10201,INT_All_FC,customfield_10119,Go/NoGo Validator,true
+10201,INT_All_FC,customfield_10120,DIT validator,true
+10201,INT_All_FC,customfield_10122,Alert,true
+10201,INT_All_FC,customfield_10123,Approving RT,true
+10201,INT_All_FC,customfield_10127,External issue ID,true
+10201,INT_All_FC,customfield_10128,Plugin,true
+10201,INT_All_FC,customfield_10129,Flagged,true
+10201,INT_All_FC,customfield_10217,Facturable,true
+10201,INT_All_FC,duedate,,true
+10201,INT_All_FC,environment,,true
+10201,INT_All_FC,fixVersions,,true
+10201,INT_All_FC,issuelinks,,true
+10201,INT_All_FC,labels,,true
+10201,INT_All_FC,security,,true
+10201,INT_All_FC,versions,,true
+10205,INTERCO_collab_FC,customfield_10217,Facturable,true
+10205,INTERCO_collab_FC,labels,,true
+10205,INTERCO_collab_FC,priority,,true
+10205,INTERCO_collab_FC,resolution,,true
+10206,INTERCO_sujet_FC,customfield_10217,Facturable,true
+10206,INTERCO_sujet_FC,labels,,true
+10202,MESAIDES_Story_FC,customfield_10102,Criticality,true
+10202,MESAIDES_Story_FC,customfield_10217,Facturable,true
+14900,MINTSICPER_Bug_FC,customfield_10217,Facturable,true
+10400,NAUTIL_Story_FC,customfield_10100,Application,true
+10400,NAUTIL_Story_FC,customfield_10102,Criticality,true
+10400,NAUTIL_Story_FC,customfield_10106,Documentary reference,true
+10400,NAUTIL_Story_FC,customfield_10217,Facturable,true
+15400,OFBREPRISE_Incident_FC,customfield_10217,Facturable,true
+15501,OFBREPRISE_Support_FC,customfield_10217,Facturable,true
+15500,OFBREPRISE_tache_FC,customfield_10217,Facturable,true
+14300,OPEN_A9_SSE_Action_FC,labels,,true
+14301,OPEN_A9_SSE_Comm_FC,labels,,true
+14302,OPEN_A9_SSE_Remonte_FC,labels,,true
+15701,OPEN_Action_FC,customfield_10217,Facturable,true
+10100,OPEN_Bug_FC,customfield_10217,Facturable,true
+10200,OPEN_commande_FC,customfield_10217,Facturable,true
+15800,OPEN_Decision_FC,customfield_10217,Facturable,true
+10210,OPEN_EPIC_FC,customfield_10100,Application,true
+10210,OPEN_EPIC_FC,customfield_10102,Criticality,true
+10210,OPEN_EPIC_FC,customfield_10106,Documentary reference,true
+10210,OPEN_EPIC_FC,customfield_10217,Facturable,true
+10210,OPEN_EPIC_FC,versions,,true
+11500,OPEN_GestionMat_FC,customfield_10217,Facturable,true
+12702,OPENJSM_TEMPLATE_demande_de_sercice_FC,customfield_10706,Approbateurs,true
+15000,OPENJSM_TEMPLATE_FNC_FC,customfield_10706,Approbateurs,true
+12900,OPENJSM_TEMPLATE_incident_de_securite_FC,customfield_10706,Approbateurs,true
+12703,OPENJSM_TEMPLATE_incident_FC,customfield_10706,Approbateurs,true
+12901,OPENJSM_TEMPLATE_incident_majeur_FC,customfield_10706,Approbateurs,true
+12704,OPENJSM_TEMPLATE_probleme_FC,customfield_10706,Approbateurs,true
+13000,OPENJSM_X5_TEMPLATE_changement_FC,customfield_10706,Approbateurs,true
+13001,OPENJSM_X5_TEMPLATE_demande_de_sercice_FC,customfield_10706,Approbateurs,true
+15001,OPENJSM_X5_TEMPLATE_FNC_FC,customfield_10706,Approbateurs,true
+13002,OPENJSM_X5_TEMPLATE_incident_de_securite_FC,customfield_10706,Approbateurs,true
+13003,OPENJSM_X5_TEMPLATE_incident_FC,customfield_10706,Approbateurs,true
+13004,OPENJSM_X5_TEMPLATE_incident_majeur_FC,customfield_10706,Approbateurs,true
+13005,OPENJSM_X5_TEMPLATE_probleme_FC,customfield_10706,Approbateurs,true
+11701,OPEN_PAM_tache_FC,customfield_10217,Facturable,true
+15700,OPEN_Risk_FC,customfield_10217,Facturable,true
+10102,OPEN_sstache_FC,customfield_10217,Facturable,true
+10101,OPEN_Story_FC,customfield_10100,Application,true
+10101,OPEN_Story_FC,customfield_10102,Criticality,true
+10101,OPEN_Story_FC,customfield_10217,Facturable,true
+10500,OPEN_Support_FC,customfield_10217,Facturable,true
+10204,OPEN_tache_FC,customfield_10217,Facturable,true
+12301,PPM_Bug_FC,customfield_10217,Facturable,true
+13302,PPM_CDV_FC,customfield_10217,Facturable,true
+12303,PPM_EPIC_FC,customfield_10100,Application,true
+12303,PPM_EPIC_FC,customfield_10102,Criticality,true
+12303,PPM_EPIC_FC,customfield_10106,Documentary reference,true
+12303,PPM_EPIC_FC,customfield_10217,Facturable,true
+12303,PPM_EPIC_FC,versions,,true
+12302,PPM_Story_FC,customfield_10100,Application,true
+12302,PPM_Story_FC,customfield_10102,Criticality,true
+12302,PPM_Story_FC,customfield_10217,Facturable,true
+12304,PPM_Support_FC,customfield_10217,Facturable,true
+11203,RelationEcole_FC,customfield_10100,Application,true
+11203,RelationEcole_FC,customfield_10101,Business value,true
+11203,RelationEcole_FC,customfield_10105,Acceptance Test,true
+11203,RelationEcole_FC,customfield_10122,Alert,true
+11203,RelationEcole_FC,customfield_10123,Approving RT,true
+11203,RelationEcole_FC,customfield_10128,Plugin,true
+11203,RelationEcole_FC,customfield_10205,Administrateur/s du projet,true
+11203,RelationEcole_FC,customfield_10217,Facturable,true
+11203,RelationEcole_FC,fixVersions,,true
+11203,RelationEcole_FC,labels,,true
+11203,RelationEcole_FC,priority,,true
+11203,RelationEcole_FC,versions,,true
+10300,RSAT_Support_FC,attachment,,true
+10300,RSAT_Support_FC,customfield_10100,Application,true
+10300,RSAT_Support_FC,customfield_10102,Criticality,true
+10300,RSAT_Support_FC,customfield_10105,Acceptance Test,true
+10300,RSAT_Support_FC,customfield_10106,Documentary reference,true
+10300,RSAT_Support_FC,customfield_10122,Alert,true
+10300,RSAT_Support_FC,customfield_10128,Plugin,true
+10300,RSAT_Support_FC,customfield_10216,Application Xloan,true
+10300,RSAT_Support_FC,customfield_10217,Facturable,true
+10300,RSAT_Support_FC,fixVersions,,true
+10300,RSAT_Support_FC,labels,,true
+10300,RSAT_Support_FC,versions,,true
+15100,SEDIFSI_Bug_FC,customfield_10217,Facturable,true
+13800,STAFRGAA_Audit_FC,customfield_10217,Facturable,true
+13801,STAFRGAA_Contre-audit_FC,customfield_10217,Facturable,true
+13803,STAFRGAA_Formation_FC,customfield_10217,Facturable,true
+13802,STAFRGAA_Sensibilisation_FC,customfield_10217,Facturable,true
+14000,SUPDLVR_Archiv_FC,labels,,true
+14001,SUPDLVR_CreatProj_FC,customfield_10100,Application,true
+14001,SUPDLVR_CreatProj_FC,customfield_10101,Business value,true
+14001,SUPDLVR_CreatProj_FC,customfield_10102,Criticality,true
+14001,SUPDLVR_CreatProj_FC,customfield_10105,Acceptance Test,true
+14001,SUPDLVR_CreatProj_FC,customfield_10106,Documentary reference,true
+14001,SUPDLVR_CreatProj_FC,customfield_10128,Plugin,true
+14001,SUPDLVR_CreatProj_FC,customfield_10217,Facturable,true
+14001,SUPDLVR_CreatProj_FC,fixVersions,,true
+14001,SUPDLVR_CreatProj_FC,labels,,true
+14001,SUPDLVR_CreatProj_FC,versions,,true
+14002,SUPDLVR_SuppBug_FC,customfield_10100,Application,true
+14002,SUPDLVR_SuppBug_FC,customfield_10102,Criticality,true
+14002,SUPDLVR_SuppBug_FC,customfield_10106,Documentary reference,true
+14002,SUPDLVR_SuppBug_FC,customfield_10217,Facturable,true
+14002,SUPDLVR_SuppBug_FC,labels,,true
+11900,SUPJ_Commande_FC,customfield_10100,Application,true
+11900,SUPJ_Commande_FC,customfield_10102,Criticality,true
+11900,SUPJ_Commande_FC,customfield_10106,Documentary reference,true
+11900,SUPJ_Commande_FC,customfield_10217,Facturable,true
+10203,SUPJ_projet_FC,customfield_10100,Application,true
+10203,SUPJ_projet_FC,customfield_10101,Business value,true
+10203,SUPJ_projet_FC,customfield_10102,Criticality,true
+10203,SUPJ_projet_FC,customfield_10105,Acceptance Test,true
+10203,SUPJ_projet_FC,customfield_10106,Documentary reference,true
+10203,SUPJ_projet_FC,customfield_10128,Plugin,true
+10203,SUPJ_projet_FC,customfield_10217,Facturable,true
+10203,SUPJ_projet_FC,fixVersions,,true
+10203,SUPJ_projet_FC,labels,,true
+10203,SUPJ_projet_FC,versions,,true
+10900,SUPJ_Subtask_FC,customfield_10100,Application,true
+10900,SUPJ_Subtask_FC,customfield_10102,Criticality,true
+10900,SUPJ_Subtask_FC,customfield_10106,Documentary reference,true
+10900,SUPJ_Subtask_FC,customfield_10217,Facturable,true
+10900,SUPJ_Subtask_FC,fixVersions,,true
+10106,SUPJ_Support_FC,customfield_10100,Application,true
+10106,SUPJ_Support_FC,customfield_10102,Criticality,true
+10106,SUPJ_Support_FC,customfield_10106,Documentary reference,true
+10106,SUPJ_Support_FC,customfield_10217,Facturable,true
+14200,TMAGE_sstache_FC,components,,true
+14200,TMAGE_sstache_FC,customfield_10217,Facturable,true
+14200,TMAGE_sstache_FC,labels,,true
+12200,TMAGE_Support_FC,customfield_10217,Facturable,true
+14500,UGAP_Bug_FC,customfield_10217,Facturable,true
+14800,XLOAN_All_FC,customfield_10006,Story Points,true
+14800,XLOAN_All_FC,customfield_10100,Application,true
+14800,XLOAN_All_FC,customfield_10102,Criticality,true
+14800,XLOAN_All_FC,customfield_10106,Documentary reference,true
+14800,XLOAN_All_FC,customfield_10424,Requirement Status,true
+14800,XLOAN_All_FC,customfield_10426,Test Environments,true
+10209,XLOAN_Bug/RAI_FC,customfield_10102,Criticality,true
+10209,XLOAN_Bug/RAI_FC,customfield_10209,Etapes de reproduction,true
+10209,XLOAN_Bug/RAI_FC,customfield_10217,Facturable,true
+10209,XLOAN_Bug/RAI_FC,customfield_10405,Manual Test Steps,true
+10209,XLOAN_Bug/RAI_FC,customfield_10421,Test Execution Status,true
+12002,XLOAN_Environnement_FC,fixVersions,,true
+10705,XLOAN_Epic_FC,customfield_10006,Story Points,true
+10705,XLOAN_Epic_FC,customfield_10100,Application,true
+10705,XLOAN_Epic_FC,customfield_10102,Criticality,true
+10705,XLOAN_Epic_FC,customfield_10106,Documentary reference,true
+10705,XLOAN_Epic_FC,customfield_10217,Facturable,true
+10705,XLOAN_Epic_FC,versions,,true
+11800,XLOAN_Livraison_FC,fixVersions,,true
+15300,XLOANMT6_Bug/RAI_FC,customfield_10102,Criticality,true
+15300,XLOANMT6_Bug/RAI_FC,customfield_10209,Etapes de reproduction,true
+15300,XLOANMT6_Bug/RAI_FC,customfield_10217,Facturable,true
+15300,XLOANMT6_Bug/RAI_FC,customfield_10405,Manual Test Steps,true
+15300,XLOANMT6_Bug/RAI_FC,customfield_10421,Test Execution Status,true
+10704,XLOAN_sstache_FC,customfield_10217,Facturable,true
+10704,XLOAN_sstache_FC,versions,,true
+14801,XLOAN_Story_FC,customfield_10006,Story Points,true
+14801,XLOAN_Story_FC,customfield_10100,Application,true
+14801,XLOAN_Story_FC,customfield_10102,Criticality,true
+14801,XLOAN_Story_FC,customfield_10106,Documentary reference,true
+14801,XLOAN_Story_FC,customfield_10424,Requirement Status,true
+14801,XLOAN_Story_FC,customfield_10426,Test Environments,true
+10702,XLOAN_Story_FC(old),customfield_10006,Story Points,true
+10702,XLOAN_Story_FC(old),customfield_10100,Application,true
+10702,XLOAN_Story_FC(old),customfield_10102,Criticality,true
+10702,XLOAN_Story_FC(old),customfield_10106,Documentary reference,true
+10702,XLOAN_Story_FC(old),customfield_10424,Requirement Status,true
+10702,XLOAN_Story_FC(old),customfield_10426,Test Environments,true
+11100,XLOAN_Task_FC,customfield_10509,% Progress,true

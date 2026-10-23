@@ -1,0 +1,18 @@
+Scheme ID,Scheme Name,Level ID,Level Name
+10600,ANCV_SecS,10800,Restrained Client
+10600,ANCV_SecS,10801,Restrained Operational
+10200,DQPA_SecS,10400,Restrained Acteurs
+10200,DQPA_SecS,10401,Restrained Opérateurs
+10301,OPEN_O1_SecS,10502,Restrained Client
+10301,OPEN_O1_SecS,10503,Restrained Operational
+10002,OPEN_SecS,10100,Visible Administrator
+10002,OPEN_SecS,10001,Visible Administrator et Operationnal
+10700,OPEN_SecS_CodeProjetDelivery,10903,Hide Code Projet Delivery from clients
+10700,OPEN_SecS_CodeProjetDelivery,10900,Restrained Client
+10700,OPEN_SecS_CodeProjetDelivery,10901,Restrained Operational
+10300,SMSI_RUN_SecS,10501,Restrained Operational
+10400,SUPBOOST_SecS,10600,SUPPORTBOOST
+10100,SUPJ_SecS,10200,REPORTER ONLY
+10100,SUPJ_SecS,10300,Restrained Operational
+10003,SUPPORT_SecS,10002,REPORTER ONLY
+10003,SUPPORT_SecS,10201,Visualiser Bug

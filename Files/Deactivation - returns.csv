@@ -1,0 +1,20 @@
+Atlassian ID,Deactivate Response
+5f560070bea5be006805283a,204
+6065bc899bc49b0070fcb375,204
+62a202e9451c00006966bd4b,204
+712020:10214e0d-f797-4f00-a466-f07a6e1ec649,204
+712020:11deb375-cf11-4df0-a012-d053b3c87643,204
+712020:2ece4d0e-9de2-4593-b664-448052b27e13,204
+712020:3c2c1cf5-880e-45e4-b260-11b8ccef9f7a,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:3c2c1cf5-880e-45e4-b260-11b8ccef9f7a', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:3c2c1cf5-880e-45e4-b260-11b8ccef9f7a', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+712020:450a9ed7-59bf-487a-bbc9-243cc8ef1240,204
+712020:5e93a6fe-ae8e-48d7-bf37-2ed717568faf,204
+712020:68566dff-8f12-4c11-89c8-3e266e663091,204
+712020:68fb5438-400d-484a-b7ba-ee7fbaf9f2e7,204
+712020:6a5dc978-0e1a-471f-9495-80fb420c0e27,204
+712020:ad7d8d5f-9db7-4754-9756-3ee6e6574919,204
+712020:b1d180f4-9964-41dd-9851-ec8f2d260615,204
+712020:bc692ee1-92bd-4a74-a248-ea0bda86c64a,204
+712020:c8ebe93c-9335-4e9c-a184-c058f4061e2c,204
+712020:ce40477f-4f75-473a-8d7d-a56281826f8c,204
+712020:e8a9ffd5-3cbe-4938-bca8-4cdc1d22cb2c,204
+712020:fea7a9f0-f267-455c-9944-9134d4826c81,204

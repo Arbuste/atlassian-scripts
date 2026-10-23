@@ -1,0 +1,81 @@
+Atlassian ID,Deactivate Response
+6225e44ca12450006889a2cc,204
+60fe81a20b454a006897a682,204
+712020:2368fcde-e54a-4c67-9b65-40a91c72ec5b,204
+712020:df01c5eb-e5ba-48d8-b5e6-a91d995aaae6,204
+712020:be6645f0-20a0-432a-ac64-b02b0e643710,204
+609d8d6cdafdf00068230179,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '609d8d6cdafdf00068230179', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '609d8d6cdafdf00068230179', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+712020:0653f0f6-b5ae-404b-a00c-fdee1a516d58,204
+712020:9bb65cf1-cc7f-4e54-9deb-2182dcc1f08d,204
+63a197ef78aabbefa9d15dd2,204
+712020:2e8f9af5-8ea8-4e99-9bca-4de9803de31f,204
+712020:ad9dbca0-afb0-480a-832b-9c02995a4719,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:ad9dbca0-afb0-480a-832b-9c02995a4719', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:ad9dbca0-afb0-480a-832b-9c02995a4719', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+712020:6e9bb105-cd7a-4eae-b030-8d6fd0469f6d,204
+63b52afe7cde7bff9d7a00b7,204
+712020:1641858f-c94a-4085-a115-e6dbd6248fe8,204
+6318746cea661fd37d506551,204
+712020:3f0b2c2d-bc40-4d46-8857-9374c4a4b214,204
+603e0b3430320b00693fe75a,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '603e0b3430320b00693fe75a', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '603e0b3430320b00693fe75a', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+712020:9edefe88-8517-4e93-af23-91434cba71bd,204
+712020:3811d99d-a637-4664-89da-0e76b2338a95,204
+712020:97321d24-7bcc-4261-8f9d-1db1fa788a40,204
+712020:0f7f3808-c5cd-4dca-8727-441a89464114,204
+712020:4f37398d-4808-4583-90c9-c2171e359779,204
+636905c1d3f3a7ad527ade18,204
+712020:7de2f705-222f-4000-9334-e47c19978301,204
+712020:bfd9a0cb-fb9a-435d-a9de-4bb3b8d52d89,204
+62e263363257defaf50d6a64,204
+625eb538b8be7c006a446515,204
+712020:1cb9893e-8f57-4e1e-b2e7-5639e98a2b4f,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:1cb9893e-8f57-4e1e-b2e7-5639e98a2b4f', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:1cb9893e-8f57-4e1e-b2e7-5639e98a2b4f', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+557058:fbb1657f-ed3b-45a5-ad22-a90c970d2d9f,204
+62599090ed2b3e0074fe3d13,"{'isReqSuccess': False, 'key': 'forbidden', 'context': 'Error: Caller must be a verified org admin of targeted account or be the targeted account', 'errorKey': 'forbidden', 'errorDetail': 'Error: Caller must be a verified org admin of targeted account or be the targeted account'}"
+613f0c301370f00069feda6f,204
+5fd0bc57a237f7006ffd7aa5,204
+557058:7a625ffc-18eb-4a4c-a64c-56d5c27dccf7,204
+6156880b9cdb930072422014,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '6156880b9cdb930072422014', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}, {'code': 'HAS_NON_CANCELLED_SUBSCRIPTION', 'message': 'User is last billing admin of a transaction account that has one or more non-cancelled subscriptions.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '6156880b9cdb930072422014', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}, {'code': 'HAS_NON_CANCELLED_SUBSCRIPTION', 'message': 'User is last billing admin of a transaction account that has one or more non-cancelled subscriptions.'}]}}"
+5aeafdb9e6f95a2c1c88fd90,204
+5ca214a2bb353819f2b5d79e,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '5ca214a2bb353819f2b5d79e', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '5ca214a2bb353819f2b5d79e', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+63ff47480e0ddcdce18c975c,204
+627522efe51c620070bfb2e9,204
+6405bf059cba7ca0287904bc,204
+712020:81c80112-adcc-454a-96e1-8c70d6f554f0,204
+712020:3f088e5d-cf93-4fb4-a0be-79d4b32de34c,204
+60954c18a56f2f006f638b9c,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '60954c18a56f2f006f638b9c', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '60954c18a56f2f006f638b9c', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+712020:24ab6c2f-1d18-4c82-9fcd-0668d3cc391f,204
+712020:42727477-d599-433e-bea8-9ebe9afc6028,204
+712020:ff0f8377-5508-42c4-9330-6bb8ef4d5243,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:ff0f8377-5508-42c4-9330-6bb8ef4d5243', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:ff0f8377-5508-42c4-9330-6bb8ef4d5243', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+712020:fdd25187-cc7c-4ab4-acfd-3c220d858aac,204
+712020:d57e2a28-c8f1-4227-8796-664533c0a7a3,204
+712020:4de82ab6-3f7c-48bb-ae4b-6a6130407348,204
+712020:b250b305-2861-4821-9c22-52edb64b75ab,204
+712020:9980d56b-df90-4231-aa2c-281dfaffafb1,204
+621f1dd4c4d0fe00695292c7,204
+63d8f71efb75f8568f5ef20d,204
+610d34e48ad5b6007016f70e,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '610d34e48ad5b6007016f70e', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}, {'code': 'HAS_NON_CANCELLED_SUBSCRIPTION', 'message': 'User is last billing admin of a transaction account that has one or more non-cancelled subscriptions.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '610d34e48ad5b6007016f70e', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}, {'code': 'HAS_NON_CANCELLED_SUBSCRIPTION', 'message': 'User is last billing admin of a transaction account that has one or more non-cancelled subscriptions.'}]}}"
+712020:2fa9e050-b2cd-4299-a4fc-38e3e89da035,204
+6244620e8678e900705a4725,204
+712020:30f846f9-417d-4529-b4cc-8f440747ddeb,204
+63605e277d4645af4f035432,204
+712020:5797f4f1-a888-4832-bfbd-2418ce52f0f9,204
+60fe73348ad5b6007071eaa3,204
+602a68085b63c40068e73fbd,204
+6225f1e094f7e200690073a0,204
+712020:1d926f2a-cda3-4410-936d-f77dc781cec7,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:1d926f2a-cda3-4410-936d-f77dc781cec7', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:1d926f2a-cda3-4410-936d-f77dc781cec7', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+6294ad21417eb3006aafcc4b,204
+6244620efd5e45007043b503,204
+604f6a36009fee00691820a9,204
+712020:db8804d5-5336-430e-b65f-2298416b6673,204
+712020:8a4e9f70-af28-4342-921b-1a4858b2ec87,204
+712020:96f259b9-1620-41a9-858e-17162a214de5,204
+5af15f1b626b42214cd30542,204
+5b338262442d5666d9fc08aa,204
+712020:6331d941-5fe2-46d7-b4ef-e3d2eaf23cd6,"{'isReqSuccess': False, 'key': 'conflict.lifecycleErrors', 'context': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:6331d941-5fe2-46d7-b4ef-e3d2eaf23cd6', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}, 'errorKey': 'conflict.lifecycle-errors', 'errorDetail': {'message': ""This account isn't eligible for deactivation. It has a conflicting state."", 'accountId': '712020:6331d941-5fe2-46d7-b4ef-e3d2eaf23cd6', 'errorCodes': [{'code': 'HAS_ACTIVE_ENTITLEMENT', 'message': 'User is last billing admin of a transaction account that has one or more active entitlements.'}]}}"
+712020:3e1d1ee9-5323-4e71-a7e6-502a85fc9d1b,204
+712020:0da55aaf-13db-4f8a-8f18-dd6e7a8e3db8,204
+712020:aac32897-05e1-440e-9753-cda3f2356582,204
+712020:012b8cf4-5a8f-490e-b649-b97700b440bd,204
+712020:d821d5cd-2aba-4377-9ca1-5a2516d93ead,204
+712020:38554da8-6328-4f41-bded-3b63375cfa8c,204
+712020:18e47078-70db-4fe8-a7a4-664759620600,204
+712020:3ebf84e8-0d88-4252-a6d7-273ea366625c,204
+5df774fdf680930cb05b13e3,204
