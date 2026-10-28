@@ -5,7 +5,7 @@ from requests.auth import HTTPBasicAuth
 from environment_config import get_environment
 
 # --- CONFIGURATION (Champs à renseigner) ---
-CSV_FILE_PATH = r"C:\Users\SimonLUCCHESINI\OneDrive - CBTW\Documents\Avril\Liste users.csv"
+CSV_FILE_PATH = r"C:\Users\cbtwt\OneDrive - CBTW\Documents\Avril\Liste users.csv"
 
 environment = get_environment("avril")
 
@@ -15,7 +15,7 @@ ORG_BASE_URL = environment["org_base_url"]
 JIRA_CLOUD_URL = environment["jira_base_url"]
 JIRA_EMAIL = environment["username"]
 JIRA_API_TOKEN = environment["user_token"]
-JIRA_PROJECT = "LORAMTNC"
+JIRA_PROJECT = "MEP"
 
 def chunked_list(lst, size=100):
     """Découpe une liste en sous-listes de taille maximale `size`."""
@@ -155,7 +155,8 @@ if __name__ == "__main__":
     user_mapping = build_username_to_account_id_mapping(CSV_FILE_PATH, ORG_ID, ORG_BEARER_TOKEN)
 
     # 2. Transformation locale des composants (instantanée)
-    with open(r"C:\Users\SimonLUCCHESINI\OneDrive - CBTW\Documents\Avril\Scripts\components.json", encoding="utf-8") as f:
+    # utiliser GET /rest/api/2/project/{projectIdOrKey}/components
+    with open(r"C:\Users\cbtwt\OneDrive - CBTW\Documents\Avril\Scripts\components.json", encoding="utf-8") as f:
         raw_components = json.load(f)
         transformed_components = [transform_component(c, user_mapping) for c in raw_components]
 
