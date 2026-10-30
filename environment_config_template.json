@@ -1,0 +1,28 @@
+{
+  "environments": {
+    "data_center": {
+      "name": {
+        "confluence_pat": "",
+        "jira_pat": "",
+        "jira_base_url": "",
+        "confluence_base_url": ""
+      }
+    },
+    "cloud": {
+      "name": {
+        "org_id": "",
+        "org_base_url": "",
+        "jira_base_url": "",
+        "confluence_base_url": "",
+        "username": "",
+        "user_token": "",
+        "org_token": "",
+        "user_id": "",
+        "directory_id": "",
+        "assets_workspace_id": "",
+        "tempo_token": "",
+        "cloud_id": ""
+      }
+    }
+  }
+}
